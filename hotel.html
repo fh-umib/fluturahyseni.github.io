@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Hotels</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+  <header class="headeri">
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hotel.html">Hotels</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+                <li><a href="page9.html">Tickets</a></li>
+                <li><a href="page10.html">Booking</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="photos/trivijat.png" id="menu">
+    </div>
+
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "photos/xx).png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "photos/xx).png";
+            }
+        }
+    </script>
+   
+    <br> <br> 
+    <div class="headerimg">
+        <div class="headerelm">
+            <h1>Shijojeni udhëtimin e ëndërrave</h1>
+            <p>Rezervo hotele, në çmimet më të lira.</p>
+        </div>
+        <div class="rezervimet">
+            <form>
+                <div class="forma">
+                  <div class="input">
+                    <input type="text">
+                    <label>Lokacioni</label>
+                  </div>
+                  <p>Vendi ku udhëton?</p>  
+                </div>
+                <div class="forma">
+                    <div class="input">
+                      <input type="text">
+                      <label>Check in</label>
+                    </div>
+                    <p>Shëno datën.</p>  
+                  </div>
+                  <div class="forma">
+                    <div class="input">
+                      <input type="text">
+                      <label>Check out</label>
+                    </div>
+                    <p>Sheno daten.</p>  
+                  </div>
+                  <div class="forma">
+                    <div class="input">
+                      <input type="text">
+                      <label>Mysafiret</label>
+                    </div>
+                    <p>Numëri i mysafirë ve</p>  
+                  </div>
+            </form>
+           <button class="btn"><i class="ri-search-line"></i></button>
+        </div>
+    </div>
+  </header>
+  <section class="section-container">
+    <!-- <h1 class="section-header">Hotele te famshme</h1> -->
+    <div class="gridii">
+        <div class="karta">
+            <img src="photos/fotoja1.jpg" alt="Hotele te famshme">
+            <div class="kontenti">
+                <div class="kartaheader">
+                    <h4>Hoteli Plaza</h4>
+                    <h4>$499</h4>
+                </div>
+                <p>New York City, USA</p>
+                </div>
+        </div>
+        <div class="karta">
+            <img src="photos/fotoja2.jpg" alt="Hotele te famshme">
+            <div class="kontenti">
+                <div class="kartaheader">
+                    <h4>Ritz Paris</h4>
+                    <h4>$549</h4>
+                </div>
+                <p>Paris, France</p>
+                </div>
+        </div>
+        <div class="karta">
+            <img src="photos/fotoja3.jpg" alt="Hotele te famshme">
+            <div class="kontenti">
+                <div class="kartaheader">
+                    <h4>The Peninsula</h4>
+                    <h4>$599</h4>
+                </div>
+                <p>Hong Kong</p>
+                </div>
+        </div>
+        <div class="karta">
+            <img src="photos/fotoja4.jpg" alt="Hotele te famshme">
+            <div class="kontenti">
+                <div class="kartaheader">
+                    <h4>Atlantis The Palm</h4>
+                    <h4>$449</h4>
+                </div>
+                <p>Dubai, United Arab Emirates</p>
+                </div>
+        </div>
+        <div class="karta">
+            <img src="photos/fotoja8.jpg" alt="Hotele te famshme">
+            <div class="kontenti">
+                <div class="kartaheader">
+                    <h4>The Ritz-Carlton</h4>
+                    <h4>$649</h4>
+                </div>
+                <p>Tokyo, Japan</p>
+                </div>
+        </div>
+        <div class="karta">
+            <img src="photos/fotoja6.jpg" alt="Hotele te famshme">
+            <div class="kontenti">
+                <div class="kartaheader">
+                    <h4>Marina Bay Sands</h4>
+                    <h4>$549</h4>
+                </div>
+                <p>Singapore</p>
+                </div>
+        </div>
+    </div>
+  </section>   
+  </div>
+  <br><br><br><br>
+  <div class="futeri">
+
+    <div class="nalt1">
+
+    <div class="pjesa10">
+        <div class="brenda1">
+            
+            <img src="photos/loggoo - Copy.png" alt="">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class="ikonatt"> 
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        </div>
+    </div>
+
+    <div class="pjesa20">
+     <div class="brenda2">
+       
+       
+       
+        <p>Home Creative Designer</p>
+        <p>Home Portfolio Minimal</p>
+        <p>Home Portfolio Parallax</p>
+        <p>Home Portfolio Personal</p>
+     </div>
+    </div>
+
+    <div class="pjesa30">
+        <div class="brenda3">
+            <h4>CONTACT INFO</h4>
+                <p>Flights Agency<br>
+                    301 The Whitehouse, Custard<br>
+                     Vushtrri, Kosovo, E2 8DY.
+                </p>
+                <p>Email: <span>fluturahysenni@gmail.com</span><br>
+                    Phone: +383 (0)45 460 070<br>
+                    <span>VIEW DIRECTION</span></p>
+        </div>
+    </div>
+
+    <div class="pjesa40">
+        <div class="brenda4">
+        <div class="teksti-part4"><h4>INSTAGRAM PORTFOLIO</h4></div><br>
+        <div class="image-part4">
+            
+            <div class="nalttt">
+
+           <div class="top-img1"><img src="photos/popra.jpg" alt=""> 
+            <div class="imghover1"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+
+             <div class="top-img2"><img src="photos/posi.jpg" alt="">
+              <div class="imghover2"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+
+            <div class="top-img3"><img src="photos/img3.jpg" alt="">
+            <div class="imghover3"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+
+            </div>
+           
+           <div class="posht">
+            
+            <div class="bottom-img4"><img src="photos/popra.jpg" alt="">
+            <div class="imghover4"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            
+            <div class="bottom-img5"><img src="photos/posi.jpg" alt=""> 
+            <div class="imghover5"><i class="fa-brands fa-instagram"></i></div>
+            </div> 
+
+            <div class="bottom-img6"><img src="photos/img3.jpg" alt="">
+            <div class="imghover6"><i class="fa-brands fa-instagram"></i></div>
+            </div> 
+        </div>
+            
+        </div>
+    </div>
+</div>
+    
+    <div class="bottom-part4"></div>
+</div>
+
+    <div class="bottom-footer">
+      <h4>© 2024 Flights is Proudly Powered by ThemeZaa</h4><br>
+      <div class="podepo">
+        <h4>Term and Condition | Privacy Policy</h4>
+      </div>
+      <div class="ikona10">
+        
+      
+    </div>
+
+  </div>
+
+
+</div>
+</body>
+</html>
