@@ -1,173 +1,88 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div class="titulli">
-    <title>Contact Us</title></div>
+    <title>Contact Us - Airplane Tickets</title>
     <link rel="stylesheet" href="conact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="contact">
-        <div id="sideNav">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="hotel.html">Hotels</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li> <a href="favorites.html">Favorites</a></li>
-                    <li><a href="suggestions.html">Suggestions</a></li>
-                    <li><a href="page9.html">Tickets</a></li>
-                    <li><a href="page10.html">Booking</a></li>
-                    
-                </ul>
-            </nav>
-        </div>
-        <div id="menuBtn">
-            <img src="photos/trivijat.png" id="menu">
-        </div>
-    
-    
-    
-    
-    
-        <script>
-            var menuBtn = document.getElementById("menuBtn")
-            var sideNav = document.getElementById("sideNav")
-            var menu = document.getElementById("menu")
-    
-            sideNav.style.right = "-250px";
-    
-            menuBtn.onclick = function(){
-                if(sideNav.style.right == "-250px"){
-                    sideNav.style.right = "0";
-                    menu.src = "photos/xx).png";
-                }
-                else{
-                    sideNav.style.right = "-250px";
-                    menu.src = "photos/xx).png";
-                }
+    <div id="sideNav">
+        <nav>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hotel.html">Hotels</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="suggestions.html">Suggestions</a></li>
+                <li><a href="page9.html">Tickets</a></li>
+                <li><a href="page10.html">Booking</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="photos/trivijat.png" id="menu">
+    </div>
+
+
+
+
+
+<script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+        menu.style.width = "25px"
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "photos/xx).png";
+
             }
-        </script>
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "photos/xx).png";
+            }
+        }
+    </script>
+   
+    <div class="contact-container">
+        <div class="left-panel">
+            <h1>Contact Us</h1>
+            <p>Have questions or need assistance? Reach out to us!</p>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> fluturahysenni@gmail.com</li>
+                <li><strong>Phone:</strong> +383 45 461 070</li>
+                <li><strong>Address:</strong> Vushtrri</li>
+            </ul>
        
-        <br> <br> 
-    <div class="content">
-    <h2>Contact Us</h2><br>
-    <p> Përshëndetje! Nëse keni ndonjë pyetje apo paknaqësi, ndihuni të lirë të na kontaktoni këtu poshtë...<br>
-    Ne do të mundohemi të ju përgjigjemi sa më shpejtë. Faleminderit për mirkuptimin!</p>
-   </div>
-   <div class="container">
-    <div class="contactinfo">
-        <div class="box">
-            <div class="ikona"><i class="fa-solid fa-location-dot"></i></div>
-            <div class="tekst">
-                <br><br>
-                <h3>Adress:</h3>
-                <br>
-                <p>Sadik Malaj-Vushtrri,Kosova</p>
-            </div>
         </div>
-        <div class="box">
-            <div class="ikona"><i class="fa-solid fa-phone"></i></div>
-            <div class="tekst">
-                <br><br>
-                <h3>Phone:</h3>
-                <br>
-                <p>045-461-070</p>
-            </div>
+        <div class="right-panel">
+            <h2>Send Us a Message</h2>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                <select id="department" name="department" required>
+                    <option value="">Select a department</option>
+                    <option value="customer-service">Customer Service</option>
+                    <option value="technical-support">Technical Support</option>
+                    <option value="booking">Booking</option>
+                </select>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
         </div>
-        <div class="box">
-            <div class="ikona"><i class="fa-solid fa-envelope"></i></div>
-            <div class="tekst">
-                <br><br>
-                <h3>Email:</h3>
-                <br>
-                <p>fluturahysenni@gmail.com</p>
-            </div>
-        </div>
+        
+        
     </div>
-    <div class="forma">
-        <form>
-            <h2>Dërgo mesazhain tënd!</h2>
-            <br>
-            <div class="inputbox">
-                <input type="text" name="" required="required">
-                <span>Emri dhe mbiemri</span>
-                </div>
-                <div class="inputbox">
-                    <input type="text" name="" required="required">
-                    <span>Email</span>
-                    </div>
-                    <div class="inputbox">
-                        <textarea required="required"></textarea>
-                        <span>Shkruaje mesazhin tend...</span>
-                        </div>
-                        <div class="inputbox">
-
-                            <!-- HTML !-->
-<button class="button-56" role="button">Dërgo</button>
-
-
-
-                            <!-- <input type="Submit" name="" value="Dergo"> -->
-
-                            </div>
-        </form>
-    </div>
-   </div>
-   <div class="map">
-    <h2><i class="fa-sharp fa-solid fa-location-dot"></i> Location</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23390.114109351452!2d20.8552439!3d42.87781955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135345063679ba21%3A0xc24c0fe075e868e2!2sMitrovica!5e0!3m2!1sen!2s!4v1732566426064!5m2!1sen!2s" width="1320" height="750" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
-
-           
-
-<footer class="footer">
-    <div class="footer-container">
-      <!-- About Section -->
-      <div class="footer-section">
-        <h4>About Us</h4>
-        <p>Your go-to destination for affordable and convenient airplane tickets. We make traveling easy and stress-free!</p>
-      </div>
-  
-      <!-- Contact Section -->
-      <div class="footer-section">
-        <h4>Contact Us</h4>
-        <p>Email: fluturahysenni@gmail.com</p>
-        <p>Phone: +383 45 461 070 </p>
-        <p>Address: 1 Sadik Malaj, Vushtrri</p>
-      </div>
-  
-      <!-- Newsletter Subscription -->
-      <div class="footer-section">
-        <h4>Stay Updated</h4>
-        <p>Subscribe to our newsletter for the latest deals and updates.</p>
-        <form action="#">
-          <input type="email" placeholder="Your Email" class="footer-input">
-          <button type="submit" class="footer-btn">Subscribe</button>
-        </form>
-      </div>
-  
-      <!-- Social Media Links -->
-      <div class="footer-section">
-        <h4>Follow Us</h4>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/flutura.hyseni.75" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="https://www.instagram.com/flutura.hysenii/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-      </div>
-    </div>
-  <!-- 
-    <div class="footer-bottom">
-      &copy; 2024 AirTickets. All Rights Reserved.
-    </div> -->
-  </footer>
     
 </body>
 </html>
+
