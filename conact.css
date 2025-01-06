@@ -231,6 +231,11 @@ nav ul li a {
     #menuBtn {
         right: 10px; /* Further adjust position for smaller devices */
     }
+    #menuBtn img {
+        width: 30px;
+        margin: 10px auto;
+        display: block;
+     } 
 }      
       
 /* Responsive Design */

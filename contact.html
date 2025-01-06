@@ -32,39 +32,25 @@
 
 
 <script>
-        // var menuBtn = document.getElementById("menuBtn")
-        // var sideNav = document.getElementById("sideNav")
-        // var menu = document.getElementById("menu")
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
 
-        // sideNav.style.right = "-250px";
-        // menu.style.width = "25px"
+        sideNav.style.right = "-250px";
+        menu.style.width = "25px"
 
-        // menuBtn.onclick = function(){
-        //     if(sideNav.style.right == "-250px"){
-        //         sideNav.style.right = "0";
-        //         menu.src = "photos/xx).png";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "photos/xx).png";
 
-        //     }
-        //     else{
-        //         sideNav.style.right = "-250px";
-        //         menu.src = "photos/xx).png";
-        //     }
-        // }
-        var menuBtn = document.getElementById("menuBtn");
-var sideNav = document.getElementById("sideNav");
-var menu = document.getElementById("menu");
-
-sideNav.style.right = "-250px";
-
-menuBtn.onclick = function () {
-    if (sideNav.style.right === "-250px") {
-        sideNav.style.right = "0"; // Slide in
-        menu.src = "photos/close.png"; // Replace with the close icon
-    } else {
-        sideNav.style.right = "-250px"; // Slide out
-        menu.src = "photos/trivijat.png"; // Replace with the menu icon
-    }
-};
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "photos/xx).png";
+            }
+        }
+      
 
     </script>
    
