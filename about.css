@@ -149,7 +149,7 @@ nav ul li a{
     right: 30px;
     top: 20px;
     border-radius: 3px;
-    z-index: 3;
+    z-index: 1000;
     cursor: pointer;
     margin-top: 25px;
 }
@@ -453,6 +453,7 @@ nav ul li a{
      height: auto;
      /* border: 1px solid black; */
      margin: auto;
+     z-index: -1000;
     }
 
 
