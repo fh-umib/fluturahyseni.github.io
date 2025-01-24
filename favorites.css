@@ -410,3 +410,9 @@ footer{
     }
  
 }
+@media (max-width: 320px){
+  #menuBtn{
+    margin-left: -80px;
+    z-index: 10;
+  }
+}

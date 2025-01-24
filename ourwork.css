@@ -1,13 +1,62 @@
 
-/* Footer Styles */
-.footer {
-    background-color: #009688ad;
+ /* Aqua background for the entire page */
+body {
+  background-color: #c3f1f7; /* Light aqua */
+  font-family: 'Arial', sans-serif;
+}
+/* Card design */
+.card-body {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Text colors */
+.card-title {
+  color: #0077b6; /* Dark blue */
+  font-weight: bold;
+}
+.card-text {
+  color: #005f73; /* Aqua teal */
+}
+/* Economy button styles */
+.btn-economy {
+  background-color: #0077b6; /* Dark Blue */
+  color: #ffffff;
+  border: none;
+}
+.btn-economy:hover {
+  background-color: #005f73; /* Darker teal */
+}
+/* Business button styles */
+.btn-business {
+  background-color: #48cae4; /* Light Blue */
+  color: #ffffff;
+  border: none;
+}
+.btn-business:hover {
+  background-color: #0096c7; /* Medium Blue */
+}
+/* First Class button styles */
+.btn-first {
+  background-color: #90e0ef; /* Aqua Blue */
+  color: #ffffff;
+  border: none;
+}
+.btn-first:hover {
+  background-color: #48cae4; /* Light Blue */
+}.btn-first:hover {
     color: #ffffff;
     padding: 30px 0;
     text-align: center;
     font-family: Arial, sans-serif;
   }
-  
+  .footer {
+    background-color: #009688ad;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
   .footer-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,36 +65,32 @@
     margin: 0 auto;
     padding: 0 20px;
     gap: 20px;
-  }
-  
-  .footer-section {
+}
+.footer-section {
     flex: 1;
     min-width: 250px;
     margin-bottom: 20px;
-  }
-  
-  .footer-section h4 {
+}
+.footer-section h4 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #ffffff;
     text-transform: uppercase;
-  }
-  
-  .footer-section p {
+}
+.footer-section p {
     font-size: 14px;
     line-height: 1.6;
     margin: 0;
-  }
-  
-  .footer-input {
+}
+.footer-input {
     width: 80%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
-  }
-  
-  .footer-btn {
+    outline: none;
+}
+.footer-btn {
     padding: 10px 15px;
     background-color: #005f6a;
     border: none;
@@ -53,37 +98,32 @@
     color: #ffffff;
     cursor: pointer;
     text-transform: uppercase;
-  }
-  
-  .footer-btn:hover {
+    transition: background-color 0.3s ease;
+}
+.footer-btn:hover {
     background-color: #003f49;
-  }
-  
-  /* Social Media Icons */
-  .social-icons {
+}
+.social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
-  }
-  
-  .social-icons a {
+}
+.social-icons a {
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s ease-in-out; 
   }
-  
   .social-icons a:hover {
-    color: #005f6a;
+    color: #005f6a !important; 
   }
-  
-  .footer-bottom {
+.footer-bottom {
     margin-top: 20px;
     font-size: 14px;
     color: #ffffff;
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding-top: 10px;
-  }
+}
   
   /* Media Queries */
   @media (max-width: 768px) {

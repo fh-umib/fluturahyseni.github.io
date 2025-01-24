@@ -296,3 +296,11 @@ nav ul li a{
     top: 18px;
  }
  }
+
+ @media (max-width: 320px){
+  #menuBtn{
+    margin-left: -80px;
+    z-index: 10;
+  }
+}
+DEKA Q
