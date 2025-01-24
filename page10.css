@@ -6,22 +6,29 @@
 }
 
 #sideNav{
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    right: -250px;
-    top: 0;
-    background: #009688;
-    z-index: 2;
-    transition: 0.5s;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: -250px;
+  top: 0;
+  background: #009688;
+  z-index: 2;
+  transition: 0.5s;
+  
+}
+#sideNav li{
+  display: flex;
+  flex-direction: column;
 }
 nav ul li{
-    list-style: none;
-    margin: 50px 20px;
+  list-style: none;
+  margin: 50px 20px;
 }
+
 nav ul li a{
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
+  flex-direction: column;
 }
 #menuBtn{
     width: 50px;
@@ -289,6 +296,13 @@ nav ul li a{
       width: 100%;
     }
   }
+  @media (max-width: 320px){
+    #menuBtn{
+      margin-left: -80px;
+      z-index: 10;
+    }
+  }
+  
   
 
 @media screen and (max-width:844px){
