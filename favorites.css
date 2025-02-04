@@ -1,4 +1,4 @@
-.bussinessServices{
+.fh-bussinessServices{
     width: 100%;
     height: 1500px;
     margin-top: 30px;
@@ -11,7 +11,7 @@
     flex-direction: column;
     gap:5px;
 }
-.top_bussinessServices{
+.fh-top_bussinessServices{
     width: 100%;
     height: 100px;
     display: flex;
@@ -21,10 +21,10 @@
     flex-direction: column;
     gap: 10px;
 }
-.top_bussinessServices h2{
+.fh-top_bussinessServices h2{
     width: 20%;
 }
-.bottom_bussinessServices{
+.fh-bottom_bussinessServices{
     width: 65%;
     height: 1300px;
     display: flex;
@@ -33,7 +33,7 @@
     align-items: center;
     background-color: white;
 }
-.box{
+.fh-box{
     width: 100%;
     height: 25%;
     display: flex;
@@ -42,7 +42,7 @@
     flex-direction: row;
     background-color: rgb(255, 255, 255);
 }
-.box_left{
+.fh-box_left{
     width: 50%;
     height: 100%;
     background-color: rgb(255, 255, 255);
@@ -52,10 +52,10 @@
     flex-direction: column;
     gap: 15px;
 }
-.box_left p{
+.fh-box_left p{
     width: 70%;
 }
-.box_right{
+.fh-box_right{
     width: 50%;
     height: 100%;
     background-color: rgb(217, 222, 227);
@@ -67,7 +67,7 @@
     justify-content: center;
 }
 
-.clients{
+.fh-clients{
     width: 100%;
     height: 400px;
     display: flex;
@@ -77,12 +77,12 @@
     gap: 13px;
     background-color: white;
 }
-.clients p {
+.fh-clients p {
     width: 40%;
     text-align: center;
 }
 
-footer{
+fh-footer{
     width: 100%;
     height: 350px;
     display: flex;
@@ -90,7 +90,7 @@ footer{
     align-items: center;
     background-color: #17191b;
 }
-.inside_footer{
+.fh-inside_fh-footer{
     width: 70%;
     height: 300px;
     display: flex;
@@ -98,7 +98,7 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-.top_footer{
+.fh-top_fh-footer{
     width: 100%;
     height: 300px;
     display: flex;
@@ -107,7 +107,7 @@ footer{
     flex-direction: row;
     gap: 30px;
 }
-.info_footer{
+.fh-info_fh-footer{
     width: 25%;
     height: 100%;
     display: flex;
@@ -116,10 +116,10 @@ footer{
     gap: 10px;
     color: white;
 }
-.info_footer h3{
+.fh-info_fh-footer h3{
     margin-bottom: 7px;
 }
-.socials i{
+.fh-socials i{
     padding-right: 5px;
     font-size: 20px;
 }
@@ -172,7 +172,7 @@ footer{
     background-color: #000;
  }
  /* Footer Styles */
-.footer {
+.fh-footer {
     background-color: #009688ad;
     color: #ffffff;
     padding: 30px 0;
@@ -180,7 +180,7 @@ footer{
     font-family: Arial, sans-serif;
   }
   
-  .footer-container {
+  .fh-footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -190,26 +190,26 @@ footer{
     gap: 20px;
   }
   
-  .footer-section {
+  .fh-footer-section {
     flex: 1;
     min-width: 250px;
     margin-bottom: 20px;
   }
   
-  .footer-section h4 {
+  .fh-footer-section h4 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #ffffff;
     text-transform: uppercase;
   }
   
-  .footer-section p {
+  .fh-footer-section p {
     font-size: 14px;
     line-height: 1.6;
     margin: 0;
   }
   
-  .footer-input {
+  .fh-footer-input {
     width: 80%;
     padding: 10px;
     border: none;
@@ -217,7 +217,7 @@ footer{
     margin-bottom: 10px;
   }
   
-  .footer-btn {
+  .fh-footer-btn {
     padding: 10px 15px;
     background-color: #005f6a;
     border: none;
@@ -227,29 +227,29 @@ footer{
     text-transform: uppercase;
   }
   
-  .footer-btn:hover {
+  .fh-footer-btn:hover {
     background-color: #003f49;
   }
   
   /* Social Media Icons */
-  .social-icons {
+  .fh-social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
   }
   
-  .social-icons a {
+  .fh-social-icons a {
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s;
   }
   
-  .social-icons a:hover {
+  .fh-social-icons a:hover {
     color: #005f6a;
   }
   
-  .footer-bottom {
+  .fh-footer-bottom {
     margin-top: 20px;
     font-size: 14px;
     color: #ffffff;
@@ -259,34 +259,34 @@ footer{
   
   /* Media Queries */
   @media (max-width: 768px) {
-    .footer-container {
+    .fh-footer-container {
       flex-direction: column;
       align-items: center;
     }
   
-    .footer-section {
+    .fh-footer-section {
       text-align: center;
     }
   
-    .footer-input {
+    .fh-footer-input {
       width: 100%;
     }
   }
   
   @media (max-width: 480px) {
-    .footer-section h4 {
+    .fh-footer-section h4 {
       font-size: 18px;
     }
   
-    .footer-section p {
+    .fh-footer-section p {
       font-size: 12px;
     }
   
-    .footer-btn {
+    .fh-footer-btn {
       font-size: 14px;
     }
   
-    .footer-bottom {
+    .fh-footer-bottom {
       font-size: 12px;
     }
   }
@@ -300,29 +300,29 @@ footer{
      }
 
 @media screen and (min-width:320px) and (max-width:767px) {
-    .service{
+    .fh-service{
         width: 100%;
         height: 300px;
         color: white;
         font-size:22px;
     }
 
-    .bussinessServices{
+    .fh-bussinessServices{
         width: 100%;
         height: 2500px;
         margin-top: 30px;
         gap:10px;
     }
-    .top_bussinessServices{
+    .fh-top_bussinessServices{
         width: 100%;
         height: 100px;
         flex-direction: column;
         gap: 20px;
     }
-    .top_bussinessServices h2{
+    .fh-top_bussinessServices h2{
         width: 95%;
     }
-    .bottom_bussinessServices{
+    .fh-bottom_bussinessServices{
         width: 95%;
         height: 2300px;
         display: flex;
@@ -337,7 +337,7 @@ footer{
         justify-content: center;
         flex-direction: column-reverse;
     }
-    .box{
+    .fh-box{
         width: 100%;
         height: 25%;
         display: flex;
@@ -346,7 +346,7 @@ footer{
         flex-direction: column;
         background-color: rgb(255, 255, 255);
     }
-    .box_left{
+    .fh-box_left{
         width: 100%;
         height: 100%;
         background-color: rgb(255, 255, 255);
@@ -356,10 +356,10 @@ footer{
         flex-direction: column;
         gap: 15px;
     }
-    .box_left p{
+    .fh-box_left p{
         width: 90%;
     }
-    .box_right{
+    .fh-box_right{
         width: 100%;
         height: 100%;
         background-color: rgb(217, 222, 227);
@@ -367,24 +367,24 @@ footer{
     }
 
 
-    .clients{
+    .fh-clients{
         gap: 5px;
     }
-    .clients p {
+    .fh-clients p {
         width: 90%;
         text-align: center;
     }
 
 
-    footer{
+    .fh-footer{
         width: 100%;
         height: 650px;
     }
-    .inside_footer{
+    .fh-inside_fh-footer{
         width: 95%;
         height: 300px;
     }
-    .top_footer{
+    .fh-top_fh-footer{
         width: 100%;
         height: 300px;
         display: flex;
@@ -393,7 +393,7 @@ footer{
         flex-direction: column;
         gap: 30px;
     }
-    .info_footer{
+    .fh-info_fh-footer{
         width: 95%;
         height: 100%;
         align-items: center;
@@ -401,10 +401,10 @@ footer{
         gap: 10px;
         color: white;
     }
-    .info_footer h3{
+    .fh-info_fh-footer h3{
         margin-bottom: 7px;
     }
-    .socials i{
+    .fh-socials i{
         padding-right: 5px;
         font-size: 20px;
     }

@@ -16,7 +16,7 @@ body {
     position: relative;
 }
 
-.contact-container {
+.fh-contact-container {
     width: 90%;
     max-width: 1200px;
     height: 90%;
@@ -31,7 +31,7 @@ body {
 }
 
 /* Left Panel Styling */
-.left-panel {
+.fh-left-panel {
     background: linear-gradient(135deg, #89f7fe, #66a6ff3e), url('photos/ajroplani');
     background-size: cover;
     background-position: center;
@@ -42,33 +42,33 @@ body {
     color: white;
 }
 
-.left-panel h1 {
+.fh-left-panel h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
-.left-panel p {
+.fh-left-panel p {
     margin-bottom: 15px;
     font-size: 1.1rem;
 }
 
-.contact-info {
+.fh-contact-info {
     list-style: none;
     padding: 0;
 }
 
-.contact-info li {
+.fh-contact-info li {
     margin: 10px 0;
     font-size: 1.1rem;
 }
 
-.left-panel footer {
+.fh-left-panel footer {
     text-align: center;
     font-size: 0.9rem;
 }
 
 /* Right Panel Styling */
-.right-panel {
+.fh-right-panel {
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@ body {
     align-items: center;
 }
 
-.right-panel h2 {
+.fh-right-panel h2 {
     margin-bottom: 20px;
     font-size: 2rem;
     color: #5eaabb;
@@ -116,7 +116,7 @@ button {
 button:hover {
     background: linear-gradient(90deg, #89f7fe, #66a6ff3e);
 }
- #sideNav {
+#sideNav {
     width: 250px;
     height: 100vh;
     position: fixed;
@@ -155,7 +155,7 @@ nav ul li a {
     width: 20px;
     margin-top: 15px;
 }
- .logo {
+.logo {
     width: 120px;
     position: absolute;
     top: 5.9%;
@@ -244,19 +244,19 @@ nav ul li a {
         height: 600px;
     }
 
-    .banner-text {
+    .fh-banner-text {
         padding-top: 120px;
     }
 
-    .banner-text h1 {
+    .fh-banner-text h1 {
         font-size: 50px;
     }
 
-    .banner-text p {
+    .fh-banner-text p {
         font-size: 16px;
     }
 
-    .banner-btn a {
+    .fh-banner-btn a {
         width: 120px;
         padding: 10px 0;
         font-size: 14px;
@@ -274,19 +274,19 @@ nav ul li a {
         height: 500px;
     }
 
-    .banner-text {
+    .fh-banner-text {
         padding-top: 100px;
     }
 
-    .banner-text h1 {
+    .fh-banner-text h1 {
         font-size: 40px;
     }
 
-    .banner-text p {
+    .fh-banner-text p {
         font-size: 14px;
     }
 
-    .banner-btn a {
+    .fh-banner-btn a {
         width: 100px;
         padding: 8px 0;
         font-size: 12px;
@@ -301,14 +301,14 @@ nav ul li a {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
-    .contact-container {
+    .fh-contact-container {
         grid-template-columns: 1fr; /* Stack the panels vertically */
         height: auto;  /* Adjust height to content */
         padding: 15px;
     }
 
     /* Left Panel Styling */
-    .left-panel {
+    .fh-left-panel {
         background: linear-gradient(135deg, #89f7fe, #66a6ff3e), url('photos/ajroplani');
         background-size: cover;
         background-position: center;
@@ -321,12 +321,12 @@ nav ul li a {
         align-items: flex-start;
     }
 
-    .left-panel h1 {
+    .fh-left-panel h1 {
         font-size: 2rem; /* Adjust the size for mobile */
         margin-bottom: 10px;
     }
 
-    .left-panel p {
+    .fh-left-panel p {
         font-size: 1rem;  /* Adjust font size */
         margin-bottom: 10px;
     }
@@ -336,7 +336,7 @@ nav ul li a {
         margin-top: 10px;
     }
 
-    .contact-info li {
+    .fh-contact-info li {
         margin-bottom: 5px;
     }
 
@@ -346,12 +346,12 @@ nav ul li a {
     }
 
     /* Right Panel Styling */
-    .right-panel {
+    .fh-right-panel {
         padding: 20px;
         align-items: stretch;
     }
 
-    .right-panel h2 {
+    .fh-right-panel h2 {
         font-size: 1.6rem;  /* Adjust header size */
         color: #66a6ff;
         margin-bottom: 20px;
@@ -373,4 +373,4 @@ nav ul li a {
         font-size: 1rem;
     }
 
-     }
+}

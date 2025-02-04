@@ -47,7 +47,7 @@ nav ul li a{
 }
 
 
-.pjesa44{
+.fh-pjesa44{
     width: 100%;
     height: 400px;
     display: flex;
@@ -57,7 +57,7 @@ nav ul li a{
     gap: 30px;
     margin-bottom: 80px;
 }
-.likes{
+.fh-likes{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -65,7 +65,7 @@ nav ul li a{
     justify-content:center;
     align-items: center;
 }
-.mrenalikes{
+.fh-mrenalikes{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -75,19 +75,19 @@ nav ul li a{
     gap:15px;
     transition: 0.06s;
 }
-.mrenalikes img{
+.fh-mrenalikes img{
     width: 45px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenalikes p{
+.fh-mrenalikes p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.desktop{
+.fh-desktop{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -95,7 +95,7 @@ nav ul li a{
     justify-content:center;
     align-items: center;
 }
-.mrenadesktop{
+.fh-mrenadesktop{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -104,19 +104,19 @@ nav ul li a{
     flex-direction: column;
     transition: 0.06s;
 }
-.mrenadesktop img{
+.fh-mrenadesktop img{
     margin-top: -20px;
     width: 90px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenadesktop p{
+.fh-mrenadesktop p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.camera{
+.fh-camera{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -124,7 +124,7 @@ nav ul li a{
     justify-content:center;
     align-items: center;
 }
-.mrenacamera{
+.fh-mrenacamera{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -133,19 +133,19 @@ nav ul li a{
     flex-direction: column;
     transition: 0.06s;
 }
-.mrenacamera img{
+.fh-mrenacamera img{
     margin-top: -10px;
     width: 90px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenacamera p{
+.fh-mrenacamera p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.chat{
+.fh-chat{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -153,7 +153,7 @@ nav ul li a{
     justify-content:center;
     align-items: center;
 }
-.mrenachat{
+.fh-mrenachat{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -162,33 +162,33 @@ nav ul li a{
     flex-direction: column;
     transition: 0.06s;
 }
-.mrenachat img{
+.fh-mrenachat img{
     margin-top: -20px;
     width: 135px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenachat p{
+.fh-mrenachat p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.mrenalikes:hover{
+.fh-mrenalikes:hover{
     border:5px solid rgb(3, 24, 92);
 }
-.mrenadesktop:hover{
+.fh-mrenadesktop:hover{
     border:5px solid rgb(3, 24, 92);
 }
-.mrenacamera:hover{
+.fh-mrenacamera:hover{
     border:5px solid rgb(3, 24, 92);
 }
-.mrenachat:hover{
+.fh-mrenachat:hover{
     border:5px solid rgb(3, 24, 92);
 }
 
 /* Footer Styles */
-.footer {
+.fh-footer {
     background-color: #009688ad;
     color: #ffffff;
     padding: 30px 0;
@@ -196,7 +196,7 @@ nav ul li a{
     font-family: Arial, sans-serif;
   }
   
-  .footer-container {
+  .fh-footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -206,26 +206,26 @@ nav ul li a{
     gap: 20px;
   }
   
-  .footer-section {
+  .fh-footer-section {
     flex: 1;
     min-width: 250px;
     margin-bottom: 20px;
   }
   
-  .footer-section h4 {
+  .fh-footer-section h4 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #ffffff;
     text-transform: uppercase;
   }
   
-  .footer-section p {
+  .fh-footer-section p {
     font-size: 14px;
     line-height: 1.6;
     margin: 0;
   }
   
-  .footer-input {
+  .fh-footer-input {
     width: 80%;
     padding: 10px;
     border: none;
@@ -233,7 +233,7 @@ nav ul li a{
     margin-bottom: 10px;
   }
   
-  .footer-btn {
+  .fh-footer-btn {
     padding: 10px 15px;
     background-color: #005f6a;
     border: none;
@@ -243,29 +243,29 @@ nav ul li a{
     text-transform: uppercase;
   }
   
-  .footer-btn:hover {
+  .fh-footer-btn:hover {
     background-color: #003f49;
   }
   
   /* Social Media Icons */
-  .social-icons {
+  .fh-social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
   }
   
-  .social-icons a {
+  .fh-social-icons a {
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s;
   }
   
-  .social-icons a:hover {
+  .fh-social-icons a:hover {
     color: #005f6a;
   }
   
-  .footer-bottom {
+  .fh-footer-bottom {
     margin-top: 20px;
     font-size: 14px;
     color: #ffffff;
@@ -275,16 +275,16 @@ nav ul li a{
   
   /* Media Queries */
   @media (max-width: 768px) {
-    .footer-container {
+    .fh-footer-container {
       flex-direction: column;
       align-items: center;
     }
   
-    .footer-section {
+    .fh-footer-section {
       text-align: center;
     }
   
-    .footer-input {
+    .fh-footer-input {
       width: 100%;
     }
   }
@@ -303,4 +303,3 @@ nav ul li a{
     z-index: 10;
   }
 }
-DEKA Q

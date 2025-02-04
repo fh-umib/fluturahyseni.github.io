@@ -1,4 +1,4 @@
-.krejt{
+.fh-krejt{
 
     width: 100%;
     height: 3000px;                                                               
@@ -9,7 +9,7 @@
     padding: 0;
 }
 /* General Styles */
-.pjesa1 {
+.fh-pjesa1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,11 +19,11 @@
     
 }
 
-.logo img {
+.fh-logo img {
     width: 80px; /* Much smaller logo size */
 }
 
-.buttons {
+.fh-buttons {
     list-style: none;
     display: flex;
     align-items: center;
@@ -31,11 +31,11 @@
    
 }
 
-.buttons li {
+.fh-buttons li {
     margin: 0;
 }
 
-.buttons a, .buttons button {
+.fh-buttons a, .fh-buttons button {
     text-decoration: none;
     background-color: #007bff; /* Blue button color */
     color: white;
@@ -47,53 +47,53 @@
     transition: background-color 0.3s;
 }
 
-.buttons button:hover, .buttons a:hover {
+.fh-buttons button:hover, .fh-buttons a:hover {
     background-color: #0056b3; /* Darker shade for hover */
 }
 
-.buttons .gjuha {
+.fh-buttons .fh-gjuha {
     background-color: #009688; /* Green button for language */
 }
 
-.buttons .gjuha:hover {
+.fh-buttons .fh-gjuha:hover {
     background-color: #218838; /* Darker green on hover */
 }
 
-.buttons .login {
+.fh-buttons .fh-login {
     background-color: #ffffff; /* Red button for login */
 }
 
-.buttons .login:hover {
+.fh-buttons .fh-login:hover {
     background-color: #ffffff; /* Darker red on hover */
 }
 
 /* Desktop specific styles */
 @media (min-width: 769px) {
-    .buttons {
+    .fh-buttons {
         margin-left: -50px; /* Move the buttons 50px to the left on desktop */
     }
 }
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
-    .pjesa1 {
+    .fh-pjesa1 {
         flex-direction: column;
         align-items: flex-start;
         padding: 15px;
     }
 
-    .buttons {
+    .fh-buttons {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
         width: 100%;
     }
 
-    .logo img {
+    .fh-logo img {
         width: 60px; /* Even smaller logo for tablet */
     }
 
-    .buttons a, .buttons button {
+    .fh-buttons a, .fh-buttons button {
         width: 100%; /* Make buttons full width on smaller screens */
         text-align: center;
         padding: 12px;
@@ -101,16 +101,16 @@
 }
 
 @media (max-width: 480px) {
-    .logo img {
+    .fh-logo img {
         width: 50px; /* Much smaller logo for mobile */
     }
 
-    .buttons a, .buttons button {
+    .fh-buttons a, .fh-buttons button {
         font-size: 14px; /* Smaller text for mobile */
         padding: 10px;
     }
 
-    .buttons {
+    .fh-buttons {
         gap: 8px;
     }
 }
@@ -166,13 +166,13 @@ nav ul li a{
     background-color: #000;
     padding: 40px;
 }
-.title-text{
+.fh-title-text{
     text-align: center;
     padding: 70px;
 
 }
 
-.title-text p{
+.fh-title-text p{
     margin: auto;
     font-size: 20px;
     color: #009688;
@@ -181,7 +181,7 @@ nav ul li a{
     z-index: 1;
     display: inline-block; */
 }
-.title-text p::after{
+.fh-title-text p::after{
     content: '';
     width: 50px;
     height: 35px;
@@ -193,14 +193,14 @@ nav ul li a{
     transform: rotate(10deg);
 
 }
-.title-text h1{
+.fh-title-text h1{
     font-size: 50px;
     /* margin-left: 15px; */
     margin-top: 30px;
     color: white;
 }
 
-.feature-box{
+.fh-feature-box{
     background-color: #009688;
     height: 400px;
     width: 96%;
@@ -213,7 +213,7 @@ nav ul li a{
     text-align: center;
 }
 
-.login{
+.fh-login{
 
     padding: 8px;
     width: 100px;
@@ -229,7 +229,7 @@ nav ul li a{
 }
 
 
-.gjuha{
+.fh-gjuha{
 
     padding: 8px;
     width: 300px;
@@ -243,7 +243,7 @@ nav ul li a{
 }
 
 
-.pjesa2{
+.fh-pjesa2{
     display: flex;
     justify-content:flex-start;
     align-items: center; 
@@ -252,7 +252,7 @@ nav ul li a{
 }
 
 
-.boxat{
+.fh-boxat{
     display: flex;
     justify-content: center;
     gap: 6px;
@@ -260,7 +260,7 @@ nav ul li a{
    
 }
 
-.nishi{
+.fh-nishi{
     width: 92px;
     padding: 10px;
     background-color: #05203c;
@@ -270,17 +270,7 @@ nav ul li a{
 }
 
 
-.dyshi{
-    width: 92px;
-    padding: 10px;
-    background-color: #0062e3;
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
-
-
-.treshi{
+.fh-dyshi{
     width: 92px;
     padding: 10px;
     background-color: #0062e3;
@@ -290,7 +280,17 @@ nav ul li a{
 }
 
 
-.dyshi:hover{
+.fh-treshi{
+    width: 92px;
+    padding: 10px;
+    background-color: #0062e3;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.fh-dyshi:hover{
 
     background-color: #05203c;
     border-color:#05203c;
@@ -298,7 +298,7 @@ nav ul li a{
 
 }
 
-.treshi:hover{
+.fh-treshi:hover{
 
     background-color: #05203c;
     border-color:#05203c;
@@ -309,7 +309,7 @@ nav ul li a{
 
 
 
-.header{
+.fh-header{
 
     height:440px;
     width: 100%;
@@ -318,13 +318,13 @@ nav ul li a{
     background-position: center;
     }
 
-    .container{
+    .fh-container{
         padding: 7% 7%;
      
 
     }
 
-    .header h1{
+    .fh-header h1{
         font-size: 4vw;
         font-weight:500 ;
         color: white;
@@ -332,7 +332,7 @@ nav ul li a{
     }
 
 
-    .search-bar{
+    .fh-search-bar{
         background-color: white;
         width: 70%;
         margin: 70px auto;
@@ -341,20 +341,20 @@ nav ul li a{
     }
 
 
-    .search-bar form{
+    .fh-search-bar form{
         display: flex;
         align-items: center;
         flex-wrap: wrap;
     }
 
-    .search-bar form input{
+    .fh-search-bar form input{
         display: block;
         border: 0;
         outline: none;
         background: transparent;
     }
 
-    .search-bar form button{
+    .fh-search-bar form button{
         background-color: #0062e3;
         color: white;
         width: 55px;
@@ -365,17 +365,17 @@ nav ul li a{
         cursor: pointer;
     }
 
-    .location-input{
+    .fh-location-input{
         flex: 1;
         margin-left: 10px;
     }
 
-    .location-input i{
+    .fh-location-input i{
         font-size: 14px;
         
     }
 
-    .wow i{
+    .fh-wow i{
 
         font-size: 14px;
 
@@ -383,7 +383,7 @@ nav ul li a{
     }
 
     
-    .wow1 i{
+    .fh-wow1 i{
 
         font-size: 14px;
 
@@ -392,7 +392,7 @@ nav ul li a{
  
 
     
-    .wow1 {
+    .fh-wow1 {
 
         font-size: 14px;
         margin-left: 25px;
@@ -401,7 +401,7 @@ nav ul li a{
     }
  
     
-    .wow2 i{
+    .fh-wow2 i{
 
         font-size: 14px;
 
@@ -410,7 +410,7 @@ nav ul li a{
 
 
     
-    .wow2{
+    .fh-wow2{
 
      margin-right: 70px;
 
@@ -421,7 +421,7 @@ nav ul li a{
  
 
 
-    .pjesa4{
+    .fh-pjesa4{
         width: 100%;
         height: 300px;
         display: flex;
@@ -429,7 +429,7 @@ nav ul li a{
         gap: 35px;
     }
 
-    .ni{
+    .fh-ni{
 
         width: 28%;
         text-align: right;
@@ -440,7 +440,7 @@ nav ul li a{
     }
 
 
-    .ni i{
+    .fh-ni i{
 
         margin-right: 13px;
         font-size: 20px;
@@ -448,7 +448,7 @@ nav ul li a{
 
 
 
-    .pjesa5{
+    .fh-pjesa5{
         width: 74%;
      height: auto;
      /* border: 1px solid black; */
@@ -457,7 +457,7 @@ nav ul li a{
     }
 
 
-    .pjesa5 h1{
+    .fh-pjesa5 h1{
 
         font-family: sans-serif;
         margin-bottom: 10px;
@@ -466,7 +466,7 @@ nav ul li a{
        
     }
 
-    .pjesa5 p{
+    .fh-pjesa5 p{
 
         font-family: sans-serif;
         font-weight: 500;
@@ -474,7 +474,7 @@ nav ul li a{
         margin: 0;
     }
 
-    .pjesa5 .cards{
+    .fh-pjesa5 .fh-cards{
         margin-top: 20px;
         display: flex;
         align-items: center;
@@ -484,7 +484,7 @@ nav ul li a{
     }
 
 
-    .pjesa5 .cards .card {
+    .fh-pjesa5 .fh-cards .fh-card {
         position: relative;
         width: 210px;
         height: 350px;
@@ -492,7 +492,7 @@ nav ul li a{
         margin: 10px;
     }
 
-    .pjesa5 .cards .card h3{
+    .fh-pjesa5 .fh-cards .fh-card h3{
         width: 140px;
         padding: 6px 0px;
         background: #15406f;
@@ -505,21 +505,21 @@ nav ul li a{
     }
 
     
-    .pjesa5 .cards .card .img_text{
+    .fh-pjesa5 .fh-cards .fh-card .fh-img_text{
     position: relative;
     width: 100%;
     height: 250px;
     margin-top: 5px;
     }
 
-    .pjesa5 .cards .card .img_text img{
+    .fh-pjesa5 .fh-cards .fh-card .fh-img_text img{
         position: relative;
         width: 100%;
       height: 100%;
        border-radius: 10px 10px 0px 0px;
         }
 
-        .pjesa5 .cards .card .img_text h4 {
+        .fh-pjesa5 .fh-cards .fh-card .fh-img_text h4 {
 
             position: absolute;
             text-align: left;
@@ -532,7 +532,7 @@ nav ul li a{
         }
     
 
-        .pjesa5 .cards .card .img_text h4::before{
+        .fh-pjesa5 .fh-cards .fh-card .fh-img_text h4::before{
             content:'';
             position: absolute;
             width: 100%;
@@ -546,7 +546,7 @@ nav ul li a{
          
         }
 
-        .pjesa5 .cards .card .cont_bx{
+        .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx{
             width: 99%;
             display: flex;
             align-items: center;
@@ -556,29 +556,29 @@ nav ul li a{
             border-radius:  0px 0px 5px 5px;
         }
 
-        .pjesa5 .cards .card .cont_bx .price, .days{
+        .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price, .fh-days{
            margin: 0px 8px;
            color: white;
         }
 
-        .days a{
+        .fh-days a{
          
             text-decoration: none;
             color: white;
         }
-        .pjesa5 .cards .card .cont_bx .price .heart_chat{
+        .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-heart_chat{
             display: flex;
             align-items: center;
             margin-top: 3px;
          }
 
-         .pjesa5 .cards .card .cont_bx .price .heart_chat i:nth-child(1){
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-heart_chat i:nth-child(1){
             color: red;
             font-size: 13px;
             margin-right: 10px;
          }
 
-         .pjesa5 .cards .card .cont_bx .price .heart_chat i span{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-heart_chat i span{
             color: #000;
             font-size: 12px;
             margin-left: 4px;
@@ -586,21 +586,21 @@ nav ul li a{
          }
 
          
-         .pjesa5 .cards .card .cont_bx .price .heart_chat i:nth-child(2){
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-heart_chat i:nth-child(2){
             color: #35506d;
             font-size: 13px;
             margin-right: 10px;
          }
     
 
-         .pjesa5 .cards .card .cont_bx .price .info_price{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-info_price{
             display: flex;
             align-items: center;
             margin-top: 7px;
 
          }
 
-         .pjesa5 .cards .card .cont_bx .price .info_price a{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-info_price a{
          text-decoration: none;
          color: #000;
          font-weight: 700;
@@ -611,7 +611,7 @@ nav ul li a{
          }
 
 
-         .pjesa5 .cards .card .cont_bx .price .info_price a:hover{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-info_price a:hover{
           
             color:gray;
 
@@ -619,12 +619,12 @@ nav ul li a{
             }
 
             
-         .pjesa5 .cards .card .cont_bx .price .info_price h4{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-info_price h4{
             margin: 0;
             font-size: 14px;
          }
 
-         .pjesa5 .cards .card .cont_bx .days{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-days{
             color: #fff;
             background-color: #000;
             font-size: 8px;
@@ -635,17 +635,17 @@ nav ul li a{
             transition: .3s linear;
          }
 
-         .pjesa5 .cards .card .cont_bx .days:hover{
+         .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-days:hover{
            
             transform: rotate(360deg);
          }
 
-         .hapsira{
+         .fh-hapsira{
             width: 100%;
             height: 200px;
          }
 
-         .pjesa6{
+         .fh-pjesa6{
             width: 100%;
             height: 500px;
             display: flex;
@@ -653,24 +653,23 @@ nav ul li a{
             gap: 40px;
          }
 
-
-         .text{
+         .fh-text{
             width: 50%;
          }
 
-         .fotoja{
+         .fh-fotoja{
            width:50%;
 
          }
 
-         .fotoja img{
+         .fh-fotoja img{
             width: 90%;
             border-radius: 50% 80%/70% 10%;
          
         
          }
 
-         .text h4{
+         .fh-text h4{
 
             text-align: left;
             align-items: center;
@@ -679,7 +678,7 @@ nav ul li a{
             margin: auto;
          }
 
-         .text h1{
+         .fh-text h1{
 
             color: #05203c;
             font-size: 47px;
@@ -687,7 +686,7 @@ nav ul li a{
             align-items: center;
          }
 
-         .text p{
+         .fh-text p{
 
             color: gray;
             font-size: 18px;
@@ -696,7 +695,7 @@ nav ul li a{
             align-items: center;
          }
 
-         .find{
+         .fh-find{
             margin-top: 20px;
             width: 200px;
             height: 50px;
@@ -710,11 +709,11 @@ nav ul li a{
             
          }
 
-         .find:hover{
+         .fh-find:hover{
             background-color: #000;
          }
 
-         .pjesa7{
+         .fh-pjesa7{
             width: 100%;
             height: 436px;
             display: flex;
@@ -727,7 +726,7 @@ nav ul li a{
 
   
 
-        .text7 h1{
+        .fh-text7 h1{
 
            color:white;
            font-size: 47px;
@@ -736,7 +735,7 @@ nav ul li a{
        
         }
 
-        .text7 p{
+        .fh-text7 p{
 
            color: rgb(251, 249, 249);
            font-size: 18px;
@@ -746,19 +745,19 @@ nav ul li a{
         }
 
 
-        .text7{
+        .fh-text7{
             width: 40%;
           margin: auto;
           margin-left: 70px;
          }
 
-         .img7{
+         .fh-img7{
            width:60%;
           
 
          }
 
-         .img7 img{
+         .fh-img7 img{
             width: 100%;
             height: 436px;
         border-top-right-radius: 40px ;
@@ -769,7 +768,7 @@ nav ul li a{
         
          }
 
-         .find7{
+         .fh-find7{
             margin-top: 20px;
             width: 200px;
             height: 50px;
@@ -783,7 +782,7 @@ nav ul li a{
             
          }
 
-         .find7:hover{
+         .fh-find7:hover{
             background-color: #282a2b;
             color: #fff;
          }
@@ -793,7 +792,7 @@ nav ul li a{
      
 
 
-.button-911 {
+.fh-button-911 {
     color: #121111;
     padding: 15px 25px;
     background-color: #abb0b6;
@@ -815,13 +814,13 @@ nav ul li a{
 
 
 
-  .button-911:hover{
+  .fh-button-911:hover{
     background-color: #000;
     color: #d9dce0;
   }
 
 
-  .button-51 {
+  .fh-button-51 {
     background-color: transparent;
     border: 1px solid#1d5268;
     box-sizing: border-box;
@@ -839,17 +838,17 @@ nav ul li a{
     touch-action: manipulation;
   }
   
-  .button-51:hover,
-  .button-51:active {
+  .fh-button-51:hover,
+  .fh-button-51:active {
     outline: 0;
   }
   
-  .button-51:hover {
+  .fh-button-51:hover {
     background-color: transparent;
     cursor: pointer;
   }
   
-  .button-51:before {
+  .fh-button-51:before {
     background-color: #D5EDF6;
     content: "";
     height: calc(100% + 3px);
@@ -861,7 +860,7 @@ nav ul li a{
     z-index: -1;
   }
   
-  .button-51:hover:before {
+  .fh-button-51:hover:before {
     background-color: #1d5268;
   }
 
@@ -869,7 +868,7 @@ nav ul li a{
 
 
 
-.pjesa8{
+.fh-pjesa8{
     width: 100%;
     height: 500px;
     display: flex;
@@ -881,14 +880,14 @@ nav ul li a{
 
 
 
-.teksti8{
+.fh-teksti8{
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.teksti8 h1{
+.fh-teksti8 h1{
     margin-top: -60px;
     color:#040630;
     text-align: left;
@@ -897,7 +896,7 @@ nav ul li a{
 }
 
 
-.teksti8 h6{
+.fh-teksti8 h6{
     margin-bottom: 10px;
     font-size: 18px;
     letter-spacing: 3px;
@@ -906,14 +905,14 @@ nav ul li a{
 
 }
 
-.teksti8 p{
+.fh-teksti8 p{
     color: gray;
     text-align: left;
     letter-spacing: 1px;
     margin-left: 19px;
 }
 
-  .plan_image{
+  .fh-plan_image{
     display:flex;
     justify-content:center;
     width:50%;
@@ -922,7 +921,7 @@ nav ul li a{
     position:relative;
     
   }
-  .image1plan{
+  .fh-image1plan{
 
     display:flex;
     width:35%;
@@ -934,7 +933,7 @@ nav ul li a{
     z-index:1;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
-  .image2plan{
+  .fh-image2plan{
     position:absolute;
     display:flex;
     width:35%;
@@ -947,7 +946,7 @@ nav ul li a{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     margin-left:20px;
   }
-  .image3plan{
+  .fh-image3plan{
     display:flex;
     width:35%;
     height:250px;
@@ -959,7 +958,7 @@ nav ul li a{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 
-  .futeri{
+  .fh-futeri{
     width: 100%;
     height:445px;
     display: flex;
@@ -967,7 +966,7 @@ nav ul li a{
     align-content: center;
     flex-direction: column;
 }
-.nalt1{
+.fh-nalt1{
     width: 100%;
     height:345px;
     background-color: #05203c;
@@ -976,7 +975,7 @@ nav ul li a{
     align-content: center;
     flex-direction:row;
 }
-.pjesa10{
+.fh-pjesa10{
     margin-block: auto;
     width: 30.5%;
     height:200px;
@@ -985,7 +984,7 @@ nav ul li a{
     justify-content:flex-end;
     align-items:center;
 }
-.brenda1{
+.fh-brenda1{
    width: 60%;
    height: 200px;
    display: flex;
@@ -995,18 +994,18 @@ nav ul li a{
    margin-right: 30px;
    gap: 20px;
 }
-.brenda1 img{
+.fh-brenda1 img{
     width: 130px;
   
 }
-.brenda1 p{
+.fh-brenda1 p{
     font-size: 11px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     line-height: 21px;
 }
 
-.pjesa20{
+.fh-pjesa20{
     margin-block: auto;
     width: 19.5%;
     height:200px;
@@ -1015,7 +1014,7 @@ nav ul li a{
     justify-content:center;
     align-items:center;
 }
-.brenda2{
+.fh-brenda2{
     width: 70%;
     height: 200px;
     display: flex;
@@ -1024,7 +1023,7 @@ nav ul li a{
     flex-direction: column;
     gap: 18px;
 }
-.brenda2 p{
+.fh-brenda2 p{
     font-size: 11px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
@@ -1032,10 +1031,10 @@ nav ul li a{
     transition: 0.4s;
     cursor: pointer;
 }
-.brenda2 p:hover{
+.fh-brenda2 p:hover{
     color: #ff214f;
 }
-.brenda2 h4{
+.fh-brenda2 h4{
     margin-top: -18px;
     margin-bottom:4px;
     margin-left: -4px;
@@ -1044,7 +1043,7 @@ nav ul li a{
     color: #fff;
 }
 
-.pjesa30{
+.fh-pjesa30{
     margin-block: auto;
     width: 19.5%;
     height:200px;
@@ -1055,7 +1054,7 @@ nav ul li a{
     flex-direction: column;
 }
 
-.brenda3{
+.fh-brenda3{
     width: 70%;
     height: 200px;
     display: flex;
@@ -1064,26 +1063,26 @@ nav ul li a{
     flex-direction: column;
     gap: 14px;
 }
-.brenda3 h4{
+.fh-brenda3 h4{
     font-size: 12px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
 }
-.brenda3 p{
+.fh-brenda3 p{
     font-size: 11px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:#fff;
     line-height: 22px;
 }
-.brenda3 p span:hover{
+.fh-brenda3 p span:hover{
 color:#ff214f;
 }
-.brenda3 p span{
+.fh-brenda3 p span{
 transition:0.5s;
 cursor: pointer;
 }
 
-.pjesa40{
+.fh-pjesa40{
     margin-block: auto;
     width: 30.5%;
     height:200px;
@@ -1093,7 +1092,7 @@ cursor: pointer;
     flex-direction: column;
 }
 
-.brenda4{
+.fh-brenda4{
     width: 80%;
     height: 200px;
     display: flex;
@@ -1101,20 +1100,20 @@ cursor: pointer;
     align-items:flex-start;
     flex-direction: column;
 }
-.teksti-part4{
+.fh-teksti-part4{
     width: 80%;
     height: 30px;
     display: flex;
     justify-content:flex-start;
     align-items:flex-start;
 }
-.teksti-part4 h4{
+.fh-teksti-part4 h4{
     font-size: 12px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
 }
 
-.nalttt{
+.fh-nalttt{
     width: 75%;
     height: 85px;
     display: flex;
@@ -1122,21 +1121,21 @@ cursor: pointer;
     align-items:center;
     flex-direction: row;
 }
-.nalttt img{
+.fh-nalttt img{
     width: 85%;
     position: relative;
 }
-.top-img1 img{
+.fh-fh- img{
     width: 75%;
 }
-.top-img2 img{
+.fh-top-img2 img{
     width: 75%;
 }
-.top-img3 img{
+.fh-top-img3 img{
     width: 75%;
 }
 
-.posht{
+.fh-posht{
     width: 75%;
     height: 85px;
     display: flex;
@@ -1144,40 +1143,40 @@ cursor: pointer;
     align-items: center;
     flex-direction: row;
 }
-.posht img{
+.fh-posht img{
     width: 85%;
     position: relative;
 }
-.bottom-img4 img{
+.fh-bottom-img4 img{
     width: 75%;
 }
-.bottom-img5 img{
+.fh-bottom-img5 img{
     width: 75%;
 }
-.bottom-img6 img{
+.fh-bottom-img6 img{
     width: 75%;
 }
 
-.top-img1:hover .imghover1{
+.fh-top-img1:hover .fh-imghover1{
     visibility: visible;
 }
-.top-img2:hover .imghover2{
+.fh-top-img2:hover .fh-imghover2{
     visibility: visible;
 }
-.top-img3:hover .imghover3{
+.fh-top-img3:hover .fh-imghover3{
     visibility: visible;
 }
-.bottom-img4:hover .imghover4{
+.fh-bottom-img4:hover .fh-imghover4{
     visibility: visible;
 }
-.bottom-img5:hover .imghover5{
+.fh-bottom-img5:hover .fh-imghover5{
     visibility: visible;
 }
-.bottom-img6:hover .imghover6{
+.fh-bottom-img6:hover .fh-imghover6{
     visibility: visible;
 }
 
-.imghover1{
+.fh-imghover1{
     position:absolute;
     width: 61px;
     height: 26px;
@@ -1189,7 +1188,7 @@ cursor: pointer;
     visibility:hidden;
     z-index: 2;
 }
-.imghover2{
+.fh-imghover2{
     position:absolute;
     width: 61px;
     height: 26px;
@@ -1201,7 +1200,7 @@ cursor: pointer;
     visibility:hidden;
     z-index: 2;
 }
-.imghover3{
+.fh-imghover3{
     position:absolute;
     width: 61px;
     height: 29px;
@@ -1213,7 +1212,7 @@ cursor: pointer;
     visibility:hidden;
     z-index: 2;
 }
-.imghover4{
+.fh-imghover4{
     position:absolute;
     width: 61px;
     height: 29px;
@@ -1225,7 +1224,7 @@ cursor: pointer;
     visibility: hidden;
     z-index: 2;
 }
-.imghover5{
+.fh-imghover5{
     position:absolute;
     width: 61px;
     height: 29px;
@@ -1237,7 +1236,7 @@ cursor: pointer;
     visibility: hidden;
     z-index: 2;
 }
-.imghover6{
+.fh-imghover6{
     position:absolute;
     width: 61px;
     height: 29px;
@@ -1249,15 +1248,15 @@ cursor: pointer;
     visibility:hidden;
     z-index: 2;
 }
-.topimage i{
+.fh-topimage i{
     color: white;
 } 
-.bottomimage i{
+.fh-bottomimage i{
     color: white;
 }
 
 
-.bottom-footer{
+.fh-bottom-fh-footer{
     width: 100%;
     height:100px;
     background-color: #031427;
@@ -1265,13 +1264,13 @@ cursor: pointer;
     justify-content: space-evenly;
     align-content: center;
 }
-.bottom-footer h4{
+.fh-bottom-fh-footer h4{
     display: flex;
     color: #686868;
     gap: 100px;
     margin-top: 50px;
 }
-.ikona{
+.fh-ikona{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -1282,7 +1281,7 @@ cursor: pointer;
     margin-right: 20px;
     margin-top: 40px;
 }
-.ikona i{
+.fh-ikona i{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1291,13 +1290,13 @@ cursor: pointer;
 }
 
 
-.ikonatt {
+.fh-ikonatt {
     color: white;
 }
 
 
 
-.pjesa44{
+.fh-pjesa44{
     width: 100%;
     height: 400px;
     display: flex;
@@ -1307,7 +1306,7 @@ cursor: pointer;
     gap: 30px;
     margin-bottom: 80px;
 }
-.likes{
+.fh-likes{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -1315,7 +1314,7 @@ cursor: pointer;
     justify-content:center;
     align-items: center;
 }
-.mrenalikes{
+.fh-mrenalikes{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -1325,19 +1324,19 @@ cursor: pointer;
     gap:15px;
     transition: 0.06s;
 }
-.mrenalikes img{
+.fh-mrenalikes img{
     width: 45px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenalikes p{
+.fh-mrenalikes p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.desktop{
+.fh-desktop{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -1345,7 +1344,7 @@ cursor: pointer;
     justify-content:center;
     align-items: center;
 }
-.mrenadesktop{
+.fh-mrenadesktop{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -1354,19 +1353,19 @@ cursor: pointer;
     flex-direction: column;
     transition: 0.06s;
 }
-.mrenadesktop img{
+.fh-mrenadesktop img{
     margin-top: -20px;
     width: 90px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenadesktop p{
+.fh-mrenadesktop p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.camera{
+.fh-camera{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -1374,7 +1373,7 @@ cursor: pointer;
     justify-content:center;
     align-items: center;
 }
-.mrenacamera{
+.fh-mrenacamera{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -1383,19 +1382,19 @@ cursor: pointer;
     flex-direction: column;
     transition: 0.06s;
 }
-.mrenacamera img{
+.fh-mrenacamera img{
     margin-top: -10px;
     width: 90px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenacamera p{
+.fh-mrenacamera p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.chat{
+.fh-chat{
     width: 17%;
     height:190px;
     border: 1px solid rgb(219, 219, 219);
@@ -1403,7 +1402,7 @@ cursor: pointer;
     justify-content:center;
     align-items: center;
 }
-.mrenachat{
+.fh-mrenachat{
     width: 96.2%;
     height: 95%;
     display: flex;
@@ -1412,33 +1411,33 @@ cursor: pointer;
     flex-direction: column;
     transition: 0.06s;
 }
-.mrenachat img{
+.fh-mrenachat img{
     margin-top: -20px;
     width: 135px;
     color:#acacac;
     background-color: #ffffff;
 }
-.mrenachat p{
+.fh-mrenachat p{
     text-align: center;
     color: #6f6f6f;
     font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
 }
-.mrenalikes:hover{
+.fh-mrenalikes:hover{
     border:5px solid rgb(3, 24, 92);
 }
-.mrenadesktop:hover{
+.fh-mrenadesktop:hover{
     border:5px solid rgb(3, 24, 92);
 }
-.mrenacamera:hover{
+.fh-mrenacamera:hover{
     border:5px solid rgb(3, 24, 92);
 }
-.mrenachat:hover{
+.fh-mrenachat:hover{
     border:5px solid rgb(3, 24, 92);
 }
 
 /* Footer Styles */
-.footer {
+.fh-footer {
     background-color: #009688ad;
     color: #ffffff;
     padding: 30px 0;
@@ -1446,7 +1445,7 @@ cursor: pointer;
     font-family: Arial, sans-serif;
   }
   
-  .footer-container {
+  .fh-footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1456,26 +1455,26 @@ cursor: pointer;
     gap: 20px;
   }
   
-  .footer-section {
+  .fh-footer-section {
     flex: 1;
     min-width: 250px;
     margin-bottom: 20px;
   }
   
-  .footer-section h4 {
+  .fh-footer-section h4 {
     font-size: 20px;
     margin-bottom: 10px;
     color: #ffffff;
     text-transform: uppercase;
   }
   
-  .footer-section p {
+  .fh-footer-section p {
     font-size: 14px;
     line-height: 1.6;
     margin: 0;
   }
   
-  .footer-input {
+  .fh-footer-input {
     width: 80%;
     padding: 10px;
     border: none;
@@ -1483,7 +1482,7 @@ cursor: pointer;
     margin-bottom: 10px;
   }
   
-  .footer-btn {
+  .fh-footer-btn {
     padding: 10px 15px;
     background-color: #005f6a;
     border: none;
@@ -1493,29 +1492,29 @@ cursor: pointer;
     text-transform: uppercase;
   }
   
-  .footer-btn:hover {
+  .fh-footer-btn:hover {
     background-color: #003f49;
   }
   
   /* Social Media Icons */
-  .social-icons {
+  .fh-social-icons {
     display: flex;
     justify-content: center;
     gap: 15px;
   }
   
-  .social-icons a {
+  .fh-social-icons a {
     color: #ffffff;
     font-size: 20px;
     text-decoration: none;
     transition: color 0.3s;
   }
   
-  .social-icons a:hover {
+  .fh-social-icons a:hover {
     color: #005f6a;
   }
   
-  .footer-bottom {
+  .fh-footer-bottom {
     margin-top: 20px;
     font-size: 14px;
     color: #ffffff;
@@ -1525,16 +1524,16 @@ cursor: pointer;
   
   /* Media Queries */
   @media (max-width: 768px) {
-    .footer-container {
+    .fh-footer-container {
       flex-direction: column;
       align-items: center;
     }
   
-    .footer-section {
+    .fh-footer-section {
       text-align: center;
     }
   
-    .footer-input {
+    .fh-footer-input {
       width: 100%;
     }
   }
@@ -1544,19 +1543,19 @@ cursor: pointer;
         height: 600px;
     }
 
-    .banner-text {
+    .fh-banner-text {
         padding-top: 120px;
     }
 
-    .banner-text h1 {
+    .fh-banner-text h1 {
         font-size: 50px;
     }
 
-    .banner-text p {
+    .fh-banner-text p {
         font-size: 16px;
     }
 
-    .banner-btn a {
+    .fh-banner-btn a {
         width: 120px;
         padding: 10px 0;
         font-size: 14px;
@@ -1573,30 +1572,30 @@ cursor: pointer;
         height: 500px;
     }
 
-    .banner-text {
+    .fh-banner-text {
         padding-top: 100px;
     }
 
-    .banner-text h1 {
+    .fh-banner-text h1 {
         font-size: 40px;
     }
 
-    .banner-text p {
+    .fh-banner-text p {
         font-size: 14px;
     }
 
-    .banner-btn a {
+    .fh-banner-btn a {
         width: 100px;
         padding: 8px 0;
         font-size: 12px;
     }
 
-    .logo {
+    .fh-logo {
         width: 80px;
         top: 5%;
         left: 10%;
     }
-    .logo img {
+    .fh-logo img {
         left: 10%;
     }
   
@@ -1604,73 +1603,73 @@ cursor: pointer;
 
 
 @media screen and (max-width: 768px) {
-    .pjesa1 {
+    .fh-pjesa1 {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center items */
     }
 
-    .logo img {
+    .fh-logo img {
         width: 50%; /* Adjust logo size */
     }
 
-    .buttons {
+    .fh-buttons {
         gap: 15px; /* Increase spacing between buttons */
         margin-top: 10px;
         flex-direction: column; /* Stack buttons vertically */
     }
 
-    .gjuha, .login {
+    .fh-gjuha, .fh-login {
         width: 90%; /* Full width buttons */
     }
 
-    .nishi, .dyshi, .treshi {
+    .fh-nishi, .fh-dyshi, .fh-treshi {
         width: 90%; /* Full width for action buttons */
     }
 }
 
 @media screen and (max-width: 768px) {
-    .logo img {
+    .fh-logo img {
         width: 60%; /* Further reduce logo size */
         left: 10%;
     }
 
-    .buttons {
+    .fh-buttons {
         gap: 10px;
     }
 
-    .gjuha, .login, .nishi, .dyshi, .treshi {
+    .fh-gjuha, .fh-login, .fh-nishi, .fh-dyshi, .fh-treshi {
         width: 100%; /* Buttons take full width */
     }
 }
 @media screen and (max-width: 768px) {
-    .header {
+    .fh-header {
         height: auto;
         margin-top: 30px;
     }
 
-    .header h1 {
+    .fh-header h1 {
         font-size: 6vw;
         margin-top: 70px; /* Adjust margin-top for smaller screens */
     }
 
-    .search-bar {
+    .fh-search-bar {
         width: 90%;
         margin-top: 50px; /* Add margin-top for better spacing */
         padding: 10px;
     }
 
-    .search-bar form {
+    .fh-search-bar form {
         flex-direction: column;
         align-items: stretch;
     }
 
-    .search-bar form input,
-    .search-bar form button {
+    .fh-search-bar form input,
+    .fh-search-bar form button {
         width: 100%;
         margin-bottom: 100px;
     }
 
-    .search-bar form button {
+    .fh-search-bar form button {
         width: 100%;
         height: auto;
         border-radius: 10px;
@@ -1678,24 +1677,24 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
-    .header h1 {
+    .fh-header h1 {
         font-size: 8vw;
         margin-top: 70px; /* Further adjust margin-top for very small screens */
     }
 
-    .search-bar {
+    .fh-search-bar {
         padding: 15px;
         margin-top: 40px; /* Adjust margin-top for mobile devices */
     }
 
-    .search-bar form input,
-    .search-bar form button {
+    .fh-search-bar form input,
+    .fh-search-bar form button {
         width: 100%;
         margin-bottom: 10px;
     }
 }
 @media screen and (max-width: 1024px) {
-    .ni {
+    .fh-ni {
         width: 45%; /* Adjust width to 45% on medium-sized screens */
         margin-top: 20px; /* Reduce margin-top for smaller screens */
         font-size: 14px; /* Adjust font size for medium screens */
@@ -1703,18 +1702,18 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .pjesa4 {
+    .fh-pjesa4 {
         gap: 20px; /* Reduce gap for tablets */
     }
 
-    .ni {
+    .fh-ni {
         width: 100%; /* Full width for mobile screens */
         text-align: center; /* Center-align text on mobile */
         margin-top: 15px; /* Further reduce margin-top */
         font-size: 14px; /* Smaller font size for better fit */
     }
 
-    .ni i {
+    .fh-ni i {
         font-size: 18px; /* Reduce icon size on mobile */
     }
 }
@@ -1722,51 +1721,51 @@ cursor: pointer;
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
-    .pjesa5 .cards .card {
+    .fh-pjesa5 .cards .card {
         width: 45%; /* Adjust card width for medium screens */
         margin: 10px 5px; /* Adjust margin for better spacing */
     }
-    .pjesa5 .cards .card h3 {
+    .fh-pjesa5 .cards .card h3 {
         font-size: 12px; /* Slightly reduce heading size */
     }
 }
 
 @media screen and (max-width: 768px) {
-    .pjesa5 {
+    .fh-pjesa5 {
         width: 90%; /* Expand the section width for smaller screens */
     }
 
-    .pjesa5 .cards {
-        justify-content: center; /* Center-align the cards */
+    .fh-pjesa5 .fh-cards {
+        justify-content: center; /* Center-align the fh-cards */
     }
 
-    .pjesa5 .cards .card {
+    .fh-pjesa5 .fh-cards .card {
         width: 90%; /* Cards take full width on small screens */
         margin: 10px 0; /* Adjust margins for better mobile appearance */
     }
 
-    .pjesa5 .cards .card h3 {
+    .fh-pjesa5 .fh-cards .fh-card h3 {
         font-size: 14px; /* Increase font size slightly */
     }
 
-    .pjesa5 .cards .card .img_text h4 {
+    .fh-pjesa5 .fh-cards .fh-card .fh-img_text h4 {
         font-size: 10px; /* Adjust the size of the text inside the images */
     }
 
-    .pjesa5 .cards .card .cont_bx {
+    .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx {
         flex-direction: column; /* Stack items vertically on small screens */
         text-align: center;
     }
 
-    .pjesa5 .cards .card .cont_bx .price, .pjesa5 .cards .card .cont_bx .days {
+    .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price, .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .days {
         margin: 5px 0; /* Adjust margin to fit smaller screen */
     }
 
-    .pjesa5 .cards .card .cont_bx .price .info_price a {
+    .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-price .fh-info_price a {
         font-size: 12px; /* Smaller font size for mobile */
     }
 
-    .pjesa5 .cards .card .cont_bx .days {
+    .fh-pjesa5 .fh-cards .fh-card .fh-cont_bx .fh-days {
         font-size: 10px; /* Adjust font size for mobile */
         padding: 8px; /* Adjust padding */
     }
@@ -1774,155 +1773,155 @@ cursor: pointer;
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {
-    .pjesa6 {
+    .fh-pjesa6 {
         flex-direction: column; /* Stack the elements vertically */
         align-items: center; /* Center align content */
         height: auto; /* Allow height to adjust based on content */
     }
 
-    .text {
+    .fh-text {
         width: 80%; /* Increase width for text on medium screens */
         text-align: center; /* Center align text */
     }
 
-    .fotoja {
+    .fh-fotoja {
         width: 80%; /* Increase image width on medium screens */
         margin-top: 20px; /* Add margin between text and image */
     }
 
-    .text h1 {
+    .fh-text h1 {
         font-size: 36px; /* Adjust heading font size */
     }
 
-    .text p {
+    .fh-text p {
         font-size: 16px; /* Adjust paragraph font size */
     }
 
-    .button-51 {
+    .fh-button-51 {
         width: 160px; /* Adjust button width for smaller screens */
     }
 }
 
 @media screen and (max-width: 768px) {
-    .pjesa6 {
+    .fh-pjesa6 {
         flex-direction: column; /* Stack the elements vertically */
         align-items: center; /* Center align content */
     }
 
-    .text {
+    .fh-text {
         width: 90%; /* Take up more space on small screens */
         text-align: center; /* Center align text */
     }
 
-    .fotoja {
+    .fh-fotoja {
         width: 90%; /* Take up more space on small screens */
         margin-top: 20px; /* Add margin between text and image */
     }
 
-    .text h1 {
+    .fh-text h1 {
         font-size: 28px; /* Reduce font size for small screens */
     }
 
-    .text p {
+    .fh-text p {
         font-size: 14px; /* Reduce font size for small screens */
         line-height: 24px; /* Adjust line-height */
     }
 
-    .button-51 {
+    .fh-button-51 {
         width: 140px; /* Adjust button width for mobile */
         font-size: 15px; /* Adjust font size */
     }
 }
 @media screen and (max-width: 1024px) {
-    .pjesa44 {
+    .fh-pjesa44 {
         flex-direction: column; /* Stack vertically */
         gap: 20px; /* Reduce gap between items */
         height: auto; /* Let height adjust based on content */
     }
 
-    .likes, .desktop, .camera, .chat {
+    .fh-likes, .fh-desktop, .fh-camera, .fh-chat {
         width: 40%; /* Decrease width of each section */
         height: auto; /* Let height adjust based on content */
     }
 
-    .mrenalikes img, .mrenadesktop img, .mrenacamera img, .mrenachat img {
+    .fh-mrenalikes img, .fh-mrenadesktop img, .fh-mrenacamera img, .fh-mrenachat img {
         width: 60px; /* Scale image sizes up for better visibility */
     }
 
-    .mrenalikes p, .mrenadesktop p, .mrenacamera p, .mrenachat p {
+    .fh-mrenalikes p, .fh-mrenadesktop p, .fh-mrenacamera p, .fh-mrenachat p {
         font-size: 14px; /* Decrease font size */
     }
 }
 
 /* For mobile devices (width <= 768px) */
 @media screen and (max-width: 768px) {
-    .pjesa44 {
+    .fh-pjesa44 {
         flex-direction: column; /* Stack vertically */
         gap: 10px; /* Further reduce gap */
         height: auto; /* Let height adjust based on content */
     }
 
-    .likes, .desktop, .camera, .chat {
+    .fh-likes, .fh-desktop, .fh-camera, .fh-chat {
         width: 80%; /* Increase width to take more space */
         height: auto; /* Let height adjust based on content */
     }
 
-    .mrenalikes img, .mrenadesktop img, .mrenacamera img, .mrenachat img {
+    .fh-mrenalikes img, .fh-mrenadesktop img, .fh-mrenacamera img, .fh-mrenachat img {
         width: 50px; /* Scale down image sizes */
     }
 
-    .mrenalikes p, .mrenadesktop p, .mrenacamera p, .mrenachat p {
+    .fh-mrenalikes p, .fh-mrenadesktop p, .fh-mrenacamera p, .fh-mrenachat p {
         font-size: 12px; /* Decrease font size */
     }
 }
 
 /* For very small devices (width <= 480px) */
 @media screen and (max-width: 480px) {
-    .pjesa44 {
+    .fh-pjesa44 {
         flex-direction: column; /* Stack vertically */
         gap: 15px; /* Adjust gap between items */
         height: auto; /* Let height adjust based on content */
     }
 
-    .likes, .desktop, .camera, .chat {
+    .fh-likes, .fh-desktop, .fh-camera, .fh-chat {
         width: 90%; /* Make sections take up most of the screen */
         height: auto; /* Let height adjust based on content */
     }
 
-    .mrenalikes img, .mrenadesktop img, .mrenacamera img, .mrenachat img {
+    .fh-mrenalikes img, .fh-mrenadesktop img, .fh-mrenacamera img, .fh-mrenachat img {
         width: 40px; /* Reduce image size */
     }
 
-    .mrenalikes p, .mrenadesktop p, .mrenacamera p, .mrenachat p {
+    .fh-mrenalikes p, .fh-mrenadesktop p, .fh-mrenacamera p, .fh-mrenachat p {
         font-size: 11px; /* Further reduce font size */
     }
 }
 @media screen and (max-width: 1024px) {
-    .pjesa7 {
+    .fh-pjesa7 {
         flex-direction: column; /* Stack vertically */
         height: auto;
         gap: 30px;
         padding: 20px;
     }
 
-    .text7 {
+    .fh-text7 {
         width: 80%; /* Increase text width */
         margin-left: 0;
     }
 
-    .img7 {
+    .fh-img7 {
         width: 100%; /* Image takes full width */
     }
 
-    .text7 h1 {
+    .fh-text7 h1 {
         font-size: 36px; /* Adjust heading font size */
     }
 
-    .text7 p {
+    .fh-text7 p {
         font-size: 16px; /* Adjust paragraph font size */
     }
 
-    .button-911 {
+    .fh-button-911 {
         width: 100%; /* Make the button full-width on small screens */
         padding: 12px 20px;
     }
@@ -1930,28 +1929,28 @@ cursor: pointer;
 
 /* For small tablets and larger phones (width <= 768px) */
 @media screen and (max-width: 768px) {
-    .pjesa7 {
+    .fh-pjesa7 {
         flex-direction: column; /* Stack vertically */
         gap: 20px;
     }
 
-    .text7 {
+    .fh-text7 {
         width: 90%; /* Increase text width */
     }
 
-    .img7 {
+    .fh-img7 {
         width: 100%; /* Image takes full width */
     }
 
-    .text7 h1 {
+    .fh-text7 h1 {
         font-size: 30px; /* Adjust heading font size */
     }
 
-    .text7 p {
+    .fh-text7 p {
         font-size: 14px; /* Adjust paragraph font size */
     }
 
-    .button-911 {
+    .fh-button-911 {
         width: 100%; /* Make button full-width */
         padding: 12px 18px;
         font-size: 14px;
@@ -1960,29 +1959,29 @@ cursor: pointer;
 
 /* For phones (width <= 480px) */
 @media screen and (max-width: 480px) {
-    .pjesa7 {
+    .fh-pjesa7 {
         flex-direction: column; /* Stack vertically */
         gap: 15px;
     }
 
-    .text7 {
+    .fh-text7 {
         width: 100%; /* Text section takes full width */
         margin-left: 0;
     }
 
-    .img7 {
+    .fh-img7 {
         width: 100%; /* Image takes full width */
     }
 
-    .text7 h1 {
+    .fh-text7 h1 {
         font-size: 24px; /* Smaller heading font size */
     }
 
-    .text7 p {
+    .fh-text7 p {
         font-size: 12px; /* Smaller paragraph font size */
     }
 
-    .button-911 {
+    .fh-button-911 {
         width: 100%; /* Make button full-width */
         padding: 10px 15px;
         font-size: 13px; /* Smaller button font size */
@@ -1990,33 +1989,33 @@ cursor: pointer;
 }
 /* For tablets (width <= 1024px) */
 @media screen and (max-width: 1024px) {
-    .pjesa8 {
+    .fh-pjesa8 {
         flex-direction: column;
         padding: 20px 10px;
         height: auto;
     }
 
-    .teksti8 {
+    .fh-teksti8 {
         width: 90%;
         padding-left: 0;
         align-items: center;
         text-align: center;
     }
 
-    .teksti8 h1 {
+    .fh-teksti8 h1 {
         font-size: 36px;
     }
 
-    .teksti8 h6 {
+    .fh-teksti8 h6 {
         font-size: 18px;
     }
 
-    .teksti8 p {
+    .fh-teksti8 p {
         font-size: 14px;
         max-width: 100%;
     }
 
-    .plan_image {
+    .fh-plan_image {
         width: 100%;
         height: 300px;
         justify-content: center;
@@ -2024,7 +2023,7 @@ cursor: pointer;
         margin-top: 20px;
     }
 
-    .image1plan, .image2plan, .image3plan {
+    .fh-image1plan, .fh-image2plan, .fh-image3plan {
         width: 80%; /* Wider images */
         height: 200px;
         margin: 0 auto;
@@ -2032,7 +2031,7 @@ cursor: pointer;
         position: relative;
     }
 
-    .image2plan, .image3plan {
+    .fh-image2plan, .fh-image3plan {
         position: relative; /* Remove overlap for mobile */
         margin-top: 10px;
     }
@@ -2040,32 +2039,32 @@ cursor: pointer;
 
 /* For mobile devices (width <= 768px) */
 @media screen and (max-width: 768px) {
-    .pjesa8 {
+    .fh-pjesa8 {
         flex-direction: column;
         padding: 20px;
         height: auto;
     }
 
-    .teksti8 {
+    .fh-teksti8 {
         width: 100%;
         padding-left: 0;
         text-align: center;
     }
 
-    .teksti8 h1 {
+    .fh-teksti8 h1 {
         font-size: 28px;
     }
 
-    .teksti8 h6 {
+    .fh-teksti8 h6 {
         font-size: 16px;
     }
 
-    .teksti8 p {
+    .fh-teksti8 p {
         font-size: 14px;
         max-width: 100%;
     }
 
-    .plan_image {
+    .fh-plan_image {
         width: 100%;
         height: 250px;
         margin-top: 20px;
@@ -2073,7 +2072,7 @@ cursor: pointer;
         justify-content: center;
     }
 
-    .image1plan, .image2plan, .image3plan {
+    .fh-image1plan, .fh-image2plan, .fh-image3plan {
         width: 90%;
         height: 180px;
     }
@@ -2081,38 +2080,38 @@ cursor: pointer;
 
 /* For small mobile devices (width <= 480px) */
 @media screen and (max-width: 480px) {
-    .pjesa8 {
+    .fh-pjesa8 {
         flex-direction: column;
         padding: 15px;
        
     }
 
-    .teksti8 {
+    .fh-teksti8 {
         width: 100%;
         text-align: center;
         padding-left: 0;
         margin-top: 40px;
     }
 
-    .teksti8 h1 {
+    .fh-teksti8 h1 {
         font-size: 24px;
     }
 
-    .teksti8 h6 {
+    .fh-teksti8 h6 {
         font-size: 14px;
     }
 
-    .teksti8 p {
+    .fh-teksti8 p {
         font-size: 12px;
     }
 
-    .plan_image {
+    .fh-plan_image {
         width: 100%;
         height: 220px;
         margin-top: 15px;
     }
 
-    .image1plan, .image2plan, .image3plan {
+    .fh-image1plan, .fh-image2plan, .fh-image3plan {
         width: 100%;
         height: 150px;
     }
@@ -2122,7 +2121,7 @@ cursor: pointer;
 
 
 /* @media (max-width: 768px) {
-    footer {
+    fh-footer {
         padding: 10px 0;
         font-size: 14px;
     }

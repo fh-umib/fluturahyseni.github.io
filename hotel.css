@@ -1,8 +1,8 @@
 
-.headeri{
+.fh-headeri{
   padding: 1rem 1rem 5rem 1rem;
 }
-.headerimg{
+.fh-headerimg{
   position: relative;
   min-height: 500px;
   background-image:
@@ -65,11 +65,11 @@ nav ul li a{
   background-color: #000;
   padding: 40px;
 }
-.title-text{
+.fh-title-text{
   text-align: center;
   padding: 70px;
 }
-.title-text p{
+.fh-title-text p{
   margin: auto;
   font-size: 20px;
   color: #009688;
@@ -78,7 +78,7 @@ nav ul li a{
   z-index: 1;
   display: inline-block; */
 }
-.title-text p::after{
+.fh-title-text p::after{
   content: '';
   width: 50px;
   height: 35px;
@@ -90,14 +90,14 @@ nav ul li a{
   transform: rotate(10deg);
 
 }
-.title-text h1{
+.fh-title-text h1{
   font-size: 50px;
   /* margin-left: 15px; */
   margin-top: 30px;
   color: white;
 }
 
-.feature-box{
+.fh-feature-box{
   background-color: #009688;
   height: 400px;
   width: 96%;
@@ -109,21 +109,21 @@ nav ul li a{
   align-items: center;
   text-align: center;
 }
-.about{
+.fh-about{
   width: 100%;
   padding: 78px 0px;
   background-color: #ffffff;
 }
-.about img{
+.fh-about img{
   margin-left: -40px;
   width: 530px;
   height: auto;
   border-radius: 20px;
 }
-.about-text{
+.fh-about-text{
   width: 550px;
 }
-.main{
+.fh-main{
   width: 1130px;
   max-width: 95%;
   margin: 0 auto;
@@ -131,13 +131,13 @@ nav ul li a{
   justify-content: center;
   justify-content: space-around;
 }
-.about-text h1{
+.fh-about-text h1{
   color: rgb(0, 0, 0);
   font-size: 60px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-.about-text h5{
+.fh-about-text h5{
   color: rgb(0, 0, 0);
   font-size: 25px;
   text-transform: capitalize;
@@ -148,21 +148,21 @@ nav ul li a{
 span{
   color:#009688;
 }
-.headerelm{
+.fh-headerelm{
   max-width: 600px;
   padding: 5rem 2rem;
 }
-.headerelm h1{
+.fh-headerelm h1{
   margin-bottom: 1rem;
   font-size: 3.5rem;
   line-height: 4rem;
   font-weight: 600;
   color: #ffffff;
 }
-.headerelm p{
+.fh-headerelm p{
   color: #f3f4f6;
 }
-.rezervimet{
+.fh-rezervimet{
   position: absolute;
   bottom: -5rem;
   left: 50%;
@@ -178,18 +178,18 @@ span{
 backdrop-filter: blur(10px);
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
-.rezervimet form{
+.fh-rezervimet form{
   width: 100%;
   flex: 1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
-.rezervimet .input{
+.fh-rezervimet .fh-input{
   width: 100%;
   position: relative;
 }
-.rezervimet label{
+.fh-rezervimet label{
   position: absolute;
   top: 50%;
   left: 0;
@@ -200,7 +200,7 @@ backdrop-filter: blur(10px);
   pointer-events: none;
   transition: 0.3s;
 }
-.rezervimet input{
+.fh-rezervimet input{
   width: 100%;
   padding: 10px 0;
   font-size: 1rem;
@@ -210,16 +210,16 @@ backdrop-filter: blur(10px);
   border-bottom: 1px solid #2c3855;
   color: #333333;
 }
-.rezervimet input:focus ~ label{
+.fh-rezervimet input:focus ~ label{
   font-size: 0.8rem;
   top: 0;
 }
-.rezervimet .forma{
+.fh-rezervimet .fh-forma{
   margin-top: 0.5rem;
   font-size: 0.8rem;
   color: #333333;
 }
-.rezervimet .btn{
+.fh-rezervimet .fh-btn{
   padding: 1rem;
   outline: none;
   border: none;
@@ -230,46 +230,46 @@ backdrop-filter: blur(10px);
   cursor: pointer;
   transition: 0.3s;
 }
-.rezervimet .btn:hover{
+.fh-rezervimet .fh-btn:hover{
   background-color: #435691;
 }
-.gridii {
+.fh-gridii {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
-.karta {
+.fh-karta {
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
-.kontenti {
+.fh-kontenti {
   padding: 1rem;
 }
-.kartaheader {
+.fh-kartaheader {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   margin-bottom: 0.5rem;
 }
-.kartaheader h4 {
+.fh-kartaheader h4 {
   font-size: 1.2rem;
   font-weight: 600;
   color: #333333;
 }
-.kontenti p {
+.fh-kontenti p {
   color: #767268;
 }
-.section-container img{
+.fh-section-container img{
   width: 100%;
 }
-.section-header h1{
+.fh-section-header h1{
   display: flex;
   align-items: center;
 }
-.pjesa9{
+.fh-pjesa9{
   width: 100%;
   height: 850px;
   display: flex;
@@ -278,7 +278,7 @@ backdrop-filter: blur(10px);
   flex-direction: column;
   background-color: #f5f5f5;
 }
-.top-pjesa9{
+.fh-top-pjesa9{
   width: 100%;
   height: 310px;
   display: flex;
@@ -286,24 +286,24 @@ backdrop-filter: blur(10px);
   align-items: center;
   flex-direction: column;
 }
-.teksti-pjesa9{
+.fh-teksti-pjesa9{
   width: 30%;
   text-align: center;
   margin-top: 90px;
 }
-.teksti-pjesa9 h1{
+.fh-teksti-pjesa9 h1{
   font-size:35px;
   font-family: 'Roboto', sans-serif;
   font-weight:500;
 }
-.teksti-pjesa9 h4{
+.fh-teksti-pjesa9 h4{
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   color: #969696;
   letter-spacing: 1px;
   margin-bottom: 9px;
 }
-.bottom-pjesa9{
+.fh-bottom-pjesa9{
   width: 100%;
   height: 550px;
   display: flex;
@@ -312,7 +312,7 @@ backdrop-filter: blur(10px);
   flex-direction: row;
   gap: 30px;
 }
-.box-pjesa9{
+.fh-box-pjesa9{
   margin-top: 30px;
   width: 24%;
   height: 380px;
@@ -323,17 +323,17 @@ backdrop-filter: blur(10px);
   align-items:center;
   flex-direction: column;
 }
-.box-pjesa9 .rrethi{
+.fh-box-pjesa9 .fh-rrethi{
   width:140px;
   height:140px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: -17px;
 }
-.box-pjesa9 .rrethi img{
+.fh-box-pjesa9 .fh-rrethi img{
   width:140px;
 }
-.mrena-pjesa9{
+.fh-mrena-pjesa9{
   width: 75%;
   height: 350px;
   display: flex;
@@ -342,21 +342,21 @@ backdrop-filter: blur(10px);
   flex-direction: column;
   gap: 20px;
 }
-.mrena-pjesa9 p{
+.fh-mrena-pjesa9 p{
   font-size: 17px;
   color: #6f6f6f;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 23px;
   text-align: center;
 }
-.mrena-pjesa9 h3{
+.fh-mrena-pjesa9 h3{
   font-size: 12px;
   color: #2e2e2e;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   margin-bottom: -12px;
 }
-.mrena-pjesa9 h4{
+.fh-mrena-pjesa9 h4{
   font-size: 11px;
   color: #686868;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -364,7 +364,7 @@ backdrop-filter: blur(10px);
   margin-bottom: -12px;
 }
 /* Footer Styles */
-.footer {
+.fh-footer {
   background-color: #009688ad;
   color: #ffffff;
   padding: 30px 0;
@@ -372,7 +372,7 @@ backdrop-filter: blur(10px);
   font-family: Arial, sans-serif;
 }
 
-.footer-container {
+.fh-footer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -382,26 +382,26 @@ backdrop-filter: blur(10px);
   gap: 20px;
 }
 
-.footer-section {
+.fh-footer-fh-section {
   flex: 1;
   min-width: 250px;
   margin-bottom: 20px;
 }
 
-.footer-section h4 {
+.fh-footer-fh-section h4 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
-.footer-section p {
+.fh-footer-fh-section p {
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
 }
 
-.footer-input {
+.fh-footer-input {
   width: 80%;
   padding: 10px;
   border: none;
@@ -409,7 +409,7 @@ backdrop-filter: blur(10px);
   margin-bottom: 10px;
 }
 
-.footer-btn {
+.fh-footer-btn {
   padding: 10px 15px;
   background-color: #005f6a;
   border: none;
@@ -419,29 +419,29 @@ backdrop-filter: blur(10px);
   text-transform: uppercase;
 }
 
-.footer-btn:hover {
+.fh-footer-btn:hover {
   background-color: #003f49;
 }
 
 /* Social Media Icons */
-.social-icons {
+.fh-social-icons {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
 
-.social-icons a {
+.fh-social-icons a {
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
   transition: color 0.3s;
 }
 
-.social-icons a:hover {
+.fh-social-icons a:hover {
   color: #005f6a;
 }
 
-.footer-bottom {
+.fh-footer-bottom {
   margin-top: 20px;
   font-size: 14px;
   color: #ffffff;
@@ -451,25 +451,25 @@ backdrop-filter: blur(10px);
 
 /* Media Queries */
 @media (max-width: 768px) {
-  .footer-container {
+  .fh-footer-container {
     flex-direction: column;
     align-items: center;
   }
 
-  .footer-section {
+  .fh-footer-fh-section {
     text-align: center;
   }
 
-  .footer-input {
+  .fh-footer-input {
     width: 100%;
   }
 }
 
 @media (width < 991px){
-  .rezervimet form{
+  .fh-rezervimet form{
  grid-template-columns: repeat(2, 1fr);
   }
-  .gridii{
+  .fh-gridii{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
