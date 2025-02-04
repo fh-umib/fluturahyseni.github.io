@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="suggestions.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body id="catchflights">
+<body>
   <div id="sideNav">
     <nav>
 
@@ -89,45 +89,45 @@
             </div>
 
             <!-- Suggestion 3 -->
-            <div class="col-md-4">
-                <div class="fhcard h-100 shadow-sm">
-                    <img src="photos/fotoja6.jpg" class="fhcard-img-top" alt="Destination Image">
-                    <div class="fhcard-body">
-                        <h5 class="fhcard-title">Adventure in the Americas</h5>
-                        <p class="fhcard-text">Discover North and South America with tickets starting at $199. Adventure awaits!</p>
-                        <button class="fhbtn btn-primary" data-bs-toggle="modal" data-bs-target="#detailsModal" data-title="Adventure in the Americas" data-description="Discover the beauty of the Americas with discounted flights to top destinations in North and South America. Starting at $199!">View Details</button>
+            <div class="fh col-md-4">
+                <div class="fh card h-100 shadow-sm">
+                    <img src="photos/fotoja6.jpg" class="fh card-img-top" alt="Destination Image">
+                    <div class="fh card-body">
+                        <h5 class="fh card-title">Adventure in the Americas</h5>
+                        <p class="fh card-text">Discover North and South America with tickets starting at $199. Adventure awaits!</p>
+                        <button class="fh btn btn-primary" data-bs-toggle="modal" data-bs-target="#detailsModal" data-title="Adventure in the Americas" data-description="Discover the beauty of the Americas with discounted flights to top destinations in North and South America. Starting at $199!">View Details</button>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Modal -->
-        <div class="fhmodal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
-            <div class="fhmodal-dialog modal-dialog-centered">
-                <div class="fhmodal-content">
-                    <div class="fhmodal-header">
-                        <h5 class="fhmodal-title" id="detailsModalLabel">More Details</h5>
-                        <button type="button" class="fhbtn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="fh modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+            <div class="fh modal-dialog modal-dialog-centered">
+                <div class="fh modal-content">
+                    <div class="fh modal-header">
+                        <h5 class="fh modal-title" id="detailsModalLabel">More Details</h5>
+                        <button type="button" class="fh btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="fhmodal-body">
+                    <div class="fh modal-body">
                         <h5 id="modalTitle"></h5>
                         <p id="modalDescription"></p>
                     </div>
-                    <div class="fhmodal-footer">
-                        <button type="button" class="fhbtn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <a href="#" class="fhbtn btn-primary">Book Now</a>
+                    <div class="fh modal-footer">
+                        <button type="button" class="fh btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="#" class="fh btn btn-primary">Book Now</a>
                     </div>
                 </div>
             </div>
         </div>
            <!-- CTA Section -->
-           <div class="row mt-5">
-            <div class="col text-center">
-                <h2 class="mb-3">Subscribe for Exclusive Offers</h2>
-                <p class="fhtext-muted">Be the first to know about the best deals and new destinations.</p>
-                <form class="fhd-flex justify-content-center">
-                    <input type="email" class="fhform-control w-50 me-2" placeholder="Enter your email" required>
-                    <button type="submit" class="fhbtn btn-success">Subscribe</button>
+           <div class="fh row mt-5">
+            <div class="fh col text-center">
+                <h2 class="fh mb-3">Subscribe for Exclusive Offers</h2>
+                <p class="fh text-muted">Be the first to know about the best deals and new destinations.</p>
+                <form class="fh d-flex justify-content-center">
+                    <input type="email" class="fh form-control w-50 me-2" placeholder="Enter your email" required>
+                    <button type="submit" class="fh btn btn-success">Subscribe</button>
                 </form>
             </div>
         </div>
@@ -136,16 +136,16 @@
     </div>
 
 
-    <footer class="fhfooter">
-        <div class="fhfooter-container">
+    <footer class="fh footer">
+        <div class="fh footer-container">
           <!-- About Section -->
-          <div class="fhfooter-section">
+          <div class="fh footer-section">
             <h4>About Us</h4>
             <p>Your go-to destination for affordable and convenient airplane tickets. We make traveling easy and stress-free!</p>
           </div>
       
           <!-- Contact Section -->
-          <div class="fhfooter-section">
+          <div class="fh footer-section">
             <h4>Contact Us</h4>
             <p>Email: catchflights@gmail.com</p>
             <p>Phone: +383 45 461 070</p>
@@ -153,23 +153,23 @@
           </div>
       
           <!-- Newsletter Subscription -->
-          <div class="fhfooter-section">
+          <div class="fh footer-section">
             <h4>Stay Updated</h4>
             <p>Subscribe to our newsletter for the latest deals and updates.</p>
             <form action="#">
-              <input type="email" placeholder="Your Email" class="fhfooter-input">
-              <button type="submit" class="fhfooter-btn">Subscribe</button>
+              <input type="email" placeholder="Your Email" class="fh footer-input">
+              <button type="submit" class="fh footer-btn">Subscribe</button>
             </form>
           </div>
       
           <!-- Social Media Links -->
-          <div class="fhfooter-section">
+          <div class="fh footer-section">
             <h4>Follow Us</h4>
-            <div class="fhsocial-icons">
-              <a href="https://www.facebook.com/flutura.hyseni.75" aria-label="Facebook"><i class="fhfab fa-facebook-f"></i></a>
-              <a href="#" aria-label="Twitter"><i class="fhfab fa-twitter"></i></a>
-              <a href="https://www.instagram.com/flutura.hysenii" aria-label="Instagram"><i class="fhfab fa-instagram"></i></a>
-              <a href="#" aria-label="LinkedIn"><i class="fhfab fa-linkedin-in"></i></a>
+            <div class="fh social-icons">
+              <a href="https://www.facebook.com/flutura.hyseni.75" aria-label="Facebook"><i class="fh fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fh fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/flutura.hysenii" aria-label="Instagram"><i class="fh fab fa-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fh fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
