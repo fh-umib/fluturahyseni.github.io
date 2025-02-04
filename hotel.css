@@ -371,6 +371,7 @@ backdrop-filter: blur(10px);
   text-align: center;
   font-family: Arial, sans-serif;
 }
+
 .fh-footer-container {
   display: flex;
   flex-wrap: wrap;
@@ -380,30 +381,34 @@ backdrop-filter: blur(10px);
   padding: 0 20px;
   gap: 20px;
 }
+
 .fh-footer-section {
   flex: 1;
   min-width: 250px;
   margin-bottom: 20px;
 }
+
 .fh-footer-section h4 {
   font-size: 20px;
   margin-bottom: 10px;
   color: #ffffff;
   text-transform: uppercase;
 }
+
 .fh-footer-section p {
   font-size: 14px;
   line-height: 1.6;
   margin: 0;
 }
+
 .fh-footer-input {
   width: 80%;
   padding: 10px;
   border: none;
   border-radius: 5px;
   margin-bottom: 10px;
-  outline: none;
 }
+
 .fh-footer-btn {
   padding: 10px 15px;
   background-color: #005f6a;
@@ -412,25 +417,30 @@ backdrop-filter: blur(10px);
   color: #ffffff;
   cursor: pointer;
   text-transform: uppercase;
-  transition: background-color 0.3s ease;
 }
+
 .fh-footer-btn:hover {
   background-color: #003f49;
 }
+
+/* Social Media Icons */
 .fh-social-icons {
   display: flex;
   justify-content: center;
   gap: 15px;
 }
+
 .fh-social-icons a {
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
-  transition: color 0.3s ease-in-out; 
+  transition: color 0.3s;
 }
+
 .fh-social-icons a:hover {
-  color: #005f6a !important; 
+  color: #005f6a;
 }
+
 .fh-footer-bottom {
   margin-top: 20px;
   font-size: 14px;
